@@ -23,11 +23,11 @@ public class JsonDemo {
 	 * @return void
 	 * @exception:org.apache.commons.lang.exception. NestableRuntimeException,
 	 *                                                   出现这个情况加载的包不全。
-	 *                                                   1，JSONObject
+	 *    1，JSONObject
 	 * 
-	 *                                                   json对象，就是一个键对应一个值，
-	 *                                                   使用的是大括号{
-	 *                                                   }，如：{key:value}
+	 *   json对象，就是一个键对应一个值，
+	 *   使用的是大括号{
+	 *    }，如：{key:value}
 	 * 
 	 *                                                   2，JSONArray
 	 *                                                   json数组，使用中括号[
