@@ -1,31 +1,34 @@
 /** 
  * @file Base64Encoder.java 
- * @date 2016Äê8ÔÂ5ÈÕ 
+ * @date 2016ï¿½ï¿½8ï¿½ï¿½5ï¿½ï¿½ 
  * @version 3.4.1 
  * 
  * Copyright (c) 2013 Sihua Tech, Inc. All Rights Reserved. 
  */
 package pers.wxp.encrypt;
 
+import Decoder.BASE64Decoder;
+import Decoder.BASE64Encoder;
+
 /**
  * 
  * 
  * @author chengjian.he
- * @version 3.4, 2016Äê8ÔÂ5ÈÕ ÉÏÎç10:44:22
+ * @version 3.4, 2016ï¿½ï¿½8ï¿½ï¿½5ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½10:44:22
  * @since Yeexun 3.4
  */
 public class Base64Encoder {
 	public static String getBASE64(String s) {
 		if (s == null)
 			return null;
-		return (new sun.misc.BASE64Encoder()).encode(s.getBytes());
+		return (new BASE64Encoder()).encode(s.getBytes());
 	}
 
-	// ½« BASE64 ±àÂëµÄ×Ö·û´® s ½øÐÐ½âÂë ½âÃÜ
+	// ï¿½ï¿½ BASE64 ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ s ï¿½ï¿½ï¿½Ð½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 	public static String getFromBASE64(String s) {
 		if (s == null)
 			return null;
-		sun.misc.BASE64Decoder decoder = new sun.misc.BASE64Decoder();
+		BASE64Decoder decoder = new BASE64Decoder();
 		try {
 			byte[] b = decoder.decodeBuffer(s);
 			return new String(b);
@@ -44,7 +47,7 @@ public class Base64Encoder {
 
 	public static void main(String[] args) {
 		String a = mTOa("100000.89".toString());
-		System.out.println(a);// ¼ÓÃÜ
-		System.out.println(aTOm(a));// ½âÃÜ
+		System.out.println(a);// ï¿½ï¿½ï¿½ï¿½
+		System.out.println(aTOm(a));// ï¿½ï¿½ï¿½ï¿½
 	}
 }

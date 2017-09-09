@@ -6,16 +6,17 @@ import java.security.SecureRandom;
 import javax.crypto.Cipher;
 import javax.crypto.KeyGenerator;
 
-import sun.misc.BASE64Decoder;
-import sun.misc.BASE64Encoder;
+import Decoder.BASE64Decoder;
+import Decoder.BASE64Encoder;
+
 
 /**
- * @author wxp
- *对数据进行加密解密
+ * @author wxp 对数据进行加密解密
  */
 public class DESUtils {
 	private static Key key;
 	private static String KEY_STR = "myKey";
+
 	static {
 		try {
 			KeyGenerator generator = KeyGenerator.getInstance("DES");
