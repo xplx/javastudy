@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+         http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+         http://www.springframework.org/schema/context
+         http://www.springframework.org/schema/context/spring-context-4.0.xsd">
+	<!--1.使用传统的PropertyPlaceholderConfigurer引用属性文件 -->
+	<!-- <bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer" p:fileEncoding="utf-8"> 
+		<property name="locations">
+			<list>
+				<value>classpath:spring/placeholder/file.properties</value>
+				<value>classpath:spring/placeholder/jdbc.properties</value>
+			</list>
+		</property> 
+	</bean> -->
+
+	<!--2.使用context命名空间的配置引用属性文件 ，location：表示属性文件位置，多个之间通过如逗号/分号等分隔； -->
+	<context:property-placeholder 
+		location="classpath:spring/placeholder/jdbc.properties,classpath:spring/placeholder/file.properties" 
+		file-encoding="utf8"/> 
+	
+	
+
+	<!--3.使用加密版的属性文件，就不能使用 context命名的空间-->
+	<!-- <bean class="pers.wxp.spring.placeholder.EncryptPropertyPlaceholderConfigurer" 
+		p:location="classpath:spring/placeholder/jdbc.properties","classpath:spring/placeholder/file.properties"
+		p:fileEncoding="utf-8" /> -->
+
+	<context:component-scan base-package="pers.wxp.spring.placeholder" />
+	
+	<bean id="fileSource" class="pers.wxp.spring.placeholder.FileDomain" init-method="init"
+		p:name="${name}" 
+		p:path="${path}" />
+
+	<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close" 
+		p:driverClassName="${jdbc.driverClassName}"
+		p:url="${jdbc.url}"
+		p:username="${jdbc.username}" 
+		p:password="${jdbc.password}" />
+		
+	
+</beans>
