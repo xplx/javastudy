@@ -1,21 +1,43 @@
 package pers.wxp.statictest;
 
 /**
- * @author wuxiaopeng
- * @date 2017Äê6ÔÂ12ÈÕ ÉÏÎç10:39:28
- * @Description: TODO(Èç¹ûÀàÖĞµÄÄ³¸öÊôÏ£ÍûÉèÖÃ³É¹«¹²ÊôĞÔ£¬¾Í¿ÉÒÔÉèÖÃ³Éstatic)
- * @Description: TODO(static±£´æÔÚÈ«¾ÖÊı¾İÇø)
- * @Description: TODO(staticÊ¹ÓÃÔ­Òò£º1¡¢Êı¾İ¹²Ïí¸ÅÄî¡£2¡¢Êı¾İ²»ÓÃÊµÀı»¯Ò²ÄÜÊ¹ÓÃ£¬¿ì½İ·½±ã)
+ * @author wxp
+ * @date 2017å¹´9æœˆ14æ—¥ ä¸‹åˆ3:55:55
+ * @Description: TODO(static{ å’Œ }ä¹‹é—´çš„ä»£ç è¢«ç§°ä¸ºé™æ€åˆå§‹åŒ–å™¨ã€‚å®ƒåªæœ‰åœ¨ç¬¬ä¸€æ¬¡åŠ è½½ç±»æ—¶è¿è¡Œã€‚)
  */
 public class StaticDemo {
 
-	public static void printf() {
-		System.out.println("²âÊÔÀàÊôĞÔ");
+	static int count;
+	static {
+		// This is a static initializers. Run only when Class is first
+		// loaded.
+		// Only static variables can be accessed
+		System.out.println("Static Initializer");
+		count++;
+		System.out.println("Count when Static Initializer is run is " + count);
+	}
+	
+    //æ¯æ¬¡åˆ›å»ºç±»çš„å®ä¾‹æ—¶ï¼Œå®ä¾‹åˆå§‹åŒ–å™¨ä¸­çš„ä»£ç éƒ½ä¼šè¿è¡Œ
+	{
+		// This is an instance initializers. Run every time an object is
+		// created.
+		// static and instance variables can be accessed
+		System.out.println("Instance Initializer");
+		count = count + 1;
+		System.out.println("Count when Instance Initializer is run is " + count);
 	}
 
-	public void staticTest() {
-		while (true) {
-
-		}
+	/**
+	 * @Description: TODO()
+	 * @param: @param
+	 *             args
+	 * @return void
+	 */
+	public static void main(String[] args) {
+		// è™½ç„¶åˆ›å»ºäº†ä¸‰ä¸ªå®ä¾‹ï¼Œä½†é™æ€åˆå§‹åŒ–å™¨åªè¿è¡Œä¸€æ¬¡
+		StaticDemo example = new StaticDemo();
+		StaticDemo example2 = new StaticDemo();
+		StaticDemo example3 = new StaticDemo();
 	}
+
 }

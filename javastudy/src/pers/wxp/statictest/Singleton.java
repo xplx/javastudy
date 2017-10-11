@@ -1,31 +1,22 @@
 package pers.wxp.statictest;
 
 /**
- * @author ×÷Õß E-mail:
- * @date ´´½¨Ê±¼ä£º2017Äê6ÔÂ12ÈÕ ÏÂÎç1:36:09
- * @Description: TODO(ÉèÖÃµ¥ÁĞÄ£Ê½)
- * @version 1.0
- * @parameter
+ * @author wxp
+ * @date 2017å¹´9æœˆ14æ—¥ ä¸‹åˆ4:04:26
+ * @Description: TODO(å•ä¾‹æ¨¡å¼)
  */
 public class Singleton {
 
-	/**
-	 * ¿ØÖÆÎ¨Ò»ÊµÀı»¯¶ÔÏó
-	 */
 	final private static Singleton instance = new Singleton();
 
-	/**
-	 * @date 2017Äê6ÔÂ12ÈÕ ÏÂÎç1:38:45
-	 * @Description: TODO(µ¥ÁĞÄ£Ê½±ØĞëÉèÖÃÒ»¸öË½ÓĞ»¯µÄ¹¹Ôìº¯Êı)
-	 */
 	private void Singleton() {
 
 	}
 
 	/**
-	 * @date 2017Äê6ÔÂ12ÈÕ ÏÂÎç1:51:29
-	 * @Description: TODO(»ñÈ¡ÊµÀı»¯¶ÔÏó)
-	 * @return
+	 * @Description: TODO(é™æ€æ–¹æ³•åªæ„å»ºä¸€æ¬¡)
+	 * @param: @return
+	 * @return Singleton
 	 */
 	public static Singleton getInstance() {
 		return instance;
@@ -36,12 +27,6 @@ public class Singleton {
 	}
 }
 
-/**
- * @author wuxiaopeng
- * @date 2017Äê6ÔÂ12ÈÕ ÏÂÎç1:52:07
- * @Description: TODO(ÊµÀı»¯µ¥ÁĞÄ£Ê½²âÊÔ)
- * 
- */
 class DemoTest {
 	public static void main(String[] args) {
 		while (true) {

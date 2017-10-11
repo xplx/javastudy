@@ -95,4 +95,18 @@ public class StringTest {
 		System.out.println(str1.matches(regex));
 	}
 
+	/**
+	 * @Description: TODO(测试位置索引)
+	 * @param:
+	 * @return void
+	 */
+	@Test
+	public void String6() {
+		String nodeName = "www.salvador.com#BusSystem#BusGateway.12345";
+		int lastIndex = nodeName.lastIndexOf("#");
+		// 索引从指定位置开始字符所在位置
+		int index = nodeName.indexOf(".", 26);
+		System.out.println(index);
+	}
+
 }
