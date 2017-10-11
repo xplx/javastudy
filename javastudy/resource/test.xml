@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<university name="pku">
+	<Version>1.0</Version>
+	<Header>
+		<ID>20160814010203</ID>
+		<Name>
+			<first>www.FONTUR.com</first>
+			<app>StudentCard</app>
+			<last>VD7100.12345678</last>
+		</Name>
+		<Check>
+			<type>1</type>
+			<value>B373625AC36DFA</value>
+		</Check>
+	</Header>
+	<Request>
+		<Name>
+			<first>www.FONTUR.com</first>
+			<app>StudentCard</app>
+			<last>GW</last>
+		</Name>
+	</Request>
+</university>
