@@ -8,10 +8,7 @@ import java.util.Map.Entry;
 import org.junit.Test;
 
 public class LRULinkedHashMap {
-
-	/**
-	 * 
-	 */
+	@SuppressWarnings("unused")
 	private static final long serialVersionUID = 1L;
 	/* LRU这个算法就是把最近一次使用时间离现在时间最远的数据删除掉，而实现LruCache将会频繁的执行插入、删除等操作 */
 	final int initialCapacity = 10;// 初始化容量
@@ -19,6 +16,7 @@ public class LRULinkedHashMap {
 	boolean accessOrder = true;// 排序方式 false 基于插入顺序 true 基于访问顺序
 	// Map<String, Integer> map = new LinkedHashMap<>(initialCapacity,
 	// loadFactor, accessOrder);
+	@SuppressWarnings({ "unchecked", "serial", "rawtypes" })
 	Map<String, Integer> map = new LinkedHashMap(initialCapacity, loadFactor, accessOrder) {
 		@Override
 		protected boolean removeEldestEntry(Entry eldest) {
