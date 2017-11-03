@@ -12,6 +12,8 @@ public class StringBuilderTest {
 			stringBuffer.append(i);
 
 		}
-		System.out.println(stringBuffer);
+		String string = "0123456789";
+		System.out.println(string.substring(2, 4));
 	}
+	
 }

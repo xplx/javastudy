@@ -12,47 +12,47 @@ import net.sf.json.JSONObject;
 
 /**
  * @author wxp
- * @date 2017Äê9ÔÂ5ÈÕ ÏÂÎç4:29:31
- * @Description: TODO(ÓÃÓÚ²âÊÔjson×Ö·û´®ºÍÆäËûÊý¾ÝÀàÐÍ×ª»»)
+ * @date 2017ï¿½ï¿½9ï¿½ï¿½5ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½4:29:31
+ * @Description: TODO(ï¿½ï¿½ï¿½Ú²ï¿½ï¿½ï¿½jsonï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×ªï¿½ï¿½)
  */
 public class JsonDemo {
 
 	/**
-	 * @Description: TODO(JSONºÍÆäËûÀàÐÍÊý¾Ý×ª»»)
+	 * @Description: TODO(JSONï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×ªï¿½ï¿½)
 	 * @param:
 	 * @return void
 	 * @exception:org.apache.commons.lang.exception. NestableRuntimeException,
-	 *                                                   ³öÏÖÕâ¸öÇé¿ö¼ÓÔØµÄ°ü²»È«¡£
-	 *    1£¬JSONObject
+	 *                                                   ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ØµÄ°ï¿½È«ï¿½ï¿½
+	 *    1ï¿½ï¿½JSONObject
 	 * 
-	 *   json¶ÔÏó£¬¾ÍÊÇÒ»¸ö¼ü¶ÔÓ¦Ò»¸öÖµ£¬
-	 *   Ê¹ÓÃµÄÊÇ´óÀ¨ºÅ{
-	 *    }£¬Èç£º{key:value}
+	 *   jsonï¿½ï¿½ï¿½ó£¬¾ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½Ó¦Ò»ï¿½ï¿½Öµï¿½ï¿½
+	 *   Ê¹ï¿½Ãµï¿½ï¿½Ç´ï¿½ï¿½ï¿½ï¿½ï¿½{
+	 *    }ï¿½ï¿½ï¿½ç£º{key:value}
 	 * 
-	 *                                                   2£¬JSONArray
-	 *                                                   jsonÊý×é£¬Ê¹ÓÃÖÐÀ¨ºÅ[
-	 *                                                   ],Ö»²»¹ýÊý×éÀïÃæµÄÏîÒ²ÊÇjson¼üÖµ¶Ô¸ñÊ½µÄ
+	 *                                                   2ï¿½ï¿½JSONArray
+	 *                                                   jsonï¿½ï¿½ï¿½é£¬Ê¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½[
+	 *                                                   ],Ö»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò²ï¿½ï¿½jsonï¿½ï¿½Öµï¿½Ô¸ï¿½Ê½ï¿½ï¿½
 	 * 
-	 *                                                   Json¶ÔÏóÖÐÌí¼ÓµÄÊÇ¼üÖµ¶Ô£¬
-	 *                                                   JSONArrayÖÐÌí¼ÓµÄÊÇJson¶ÔÏó
+	 *                                                   Jsonï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Óµï¿½ï¿½Ç¼ï¿½Öµï¿½Ô£ï¿½
+	 *                                                   JSONArrayï¿½ï¿½ï¿½ï¿½Óµï¿½ï¿½ï¿½Jsonï¿½ï¿½ï¿½ï¿½
 	 */
 	@Test
 	public void jsonTrans() {
 		/*
 		 * // json-lib-2.4-jdk15.jar // commons-beanutils-1.8.0.jar //
 		 * ezmorph-1.0.6.jar // commons-lang-2.4.jar // commons-logging-1.1.jar
-		 * // commons-collections-3.1.jarÆäÖÐÕâÐ©°üÊÇ±ØÐë¼ÓÈëµÄ¡£
+		 * // commons-collections-3.1.jarï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð©ï¿½ï¿½ï¿½Ç±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¡ï¿½
 		 */
-		// ×Ö·û´®×ªjsonÊý¾Ý
+		// ï¿½Ö·ï¿½×ªjsonï¿½ï¿½ï¿½
 		String json = "{\"2\":\"efg\",\"1\":\"abc\"}";
 		JSONObject json_test = JSONObject.fromObject(json);
 		System.out.println("json_test:" + json_test);
 
-		// json×ª×Ö·û´®
+		// json×ªï¿½Ö·ï¿½
 		String json1 = json_test.toString();
 		System.out.println(json1);
 
-		// Ê¹ÓÃlist¹¹Öþjson(listÖ»ÄÜÊ¹ÓÃJSONArray)
+		// Ê¹ï¿½ï¿½listï¿½ï¿½ï¿½ï¿½json(listÖ»ï¿½ï¿½Ê¹ï¿½ï¿½JSONArray)
 		List<String> list = new ArrayList<String>();
 		list.add("username");
 		list.add("age");
@@ -61,14 +61,14 @@ public class JsonDemo {
 		array.add(list);
 		System.out.println(array);
 
-		// ³õÊ¼»¯HashMap¼¯ºÏ²¢Ìí¼ÓÊý×é(json±ØÐë¼ü²»ÄÜÊÇintÀàÐÍ)
+		// ï¿½ï¿½Ê¼ï¿½ï¿½HashMapï¿½ï¿½ï¿½Ï²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½(jsonï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½intï¿½ï¿½ï¿½ï¿½)
 		Map<String, String> map = new HashMap<String, String>();
 		map.put("1", "abc");
 		map.put("2", "efg");
 		JSONArray array_test = new JSONArray();
 		array_test.add(map);
 		for (int i = 0; i < array_test.size(); i++) {
-			// »ñÈ¡json¶ÔÏó
+			// ï¿½ï¿½È¡jsonï¿½ï¿½ï¿½ï¿½
 			JSONObject jsonObject = array_test.getJSONObject(i);
 			System.out.println(jsonObject);
 		}
@@ -77,7 +77,7 @@ public class JsonDemo {
 		JSONObject jsonObject = JSONObject.fromObject(map);
 		System.out.println("jsonObject:" + jsonObject);
 
-		// ½âÎöjson
+		// ï¿½ï¿½ï¿½ï¿½json
 		String jons1 = "{\"data\": {\"pages\": [ {\"comment\": \"test1\"},{\"comment\": \"test2\"}],\"total_count\": 2 },\"errcode\": 0}";
 		JSONObject string_to_json = JSONObject.fromObject(jons1);
 		JSONObject json_to_data1 = string_to_json.getJSONObject("data");

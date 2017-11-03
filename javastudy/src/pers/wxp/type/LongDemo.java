@@ -4,13 +4,13 @@ import org.junit.Test;
 
 /**
  * @author wxp
- * @date 2017Äê8ÔÂ10ÈÕ ÏÂÎç4:32:19
- * @Description: TODO(²âÊÔLongÒýÓÃÀàÏà¹Ø·½·¨²Ù×÷)
+ * @date 2017ï¿½ï¿½8ï¿½ï¿½10ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½4:32:19
+ * @Description: TODO(ï¿½ï¿½ï¿½ï¿½Longï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ø·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½)
  */
 public class LongDemo {
 
 	/** 
-	* @Description: TODO(²âÊÔ×Ö·û´®×ª»»³É³¤ÕûÐÎÊý¾ÝÊ±£¬¸ßÎ»ÊýÊÇ0ÊÇ²»½øÐÐ×ª»») 
+	* @Description: TODO(ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½×ªï¿½ï¿½ï¿½É³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½ï¿½ï¿½Î»ï¿½ï¿½ï¿½ï¿½0ï¿½Ç²ï¿½ï¿½ï¿½ï¿½ï¿½×ªï¿½ï¿½) 
 	* @param:     
 	* @return void     
 	*/
@@ -18,9 +18,9 @@ public class LongDemo {
 	public void LongValueOf() {
 		String str = "C89ED7DE";
 		System.out.println(str.toLowerCase());
-		//²¹0²âÊÔ
+		//ï¿½ï¿½0ï¿½ï¿½ï¿½ï¿½
 		String str1 = "00000000" + "C89ED7DE";
-		//¸Ã·½·¨¿ÉÒÔ½ÓÊÕÁ½¸ö²ÎÊýÒ»¸öÊÇ×Ö·û´®£¬Ò»¸öÊÇ»ùÊý¡£
+		//ï¿½Ã·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½Ò»ï¿½ï¿½ï¿½Ç»ï¿½ï¿½ï¿½
 		Long len = Long.valueOf(str, 16);
 		Long len1 = Long.valueOf(str1, 16);
 		System.out.println(len);		
