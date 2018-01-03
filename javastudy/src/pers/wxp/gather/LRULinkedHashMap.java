@@ -7,6 +7,10 @@ import java.util.Map.Entry;
 
 import org.junit.Test;
 
+/**
+ * @author Administrator
+ *
+ */
 public class LRULinkedHashMap {
 	@SuppressWarnings("unused")
 	private static final long serialVersionUID = 1L;
