@@ -1,19 +1,19 @@
-package pers.wxp.orcal;
+package pers.wxp.database;
 
 import java.sql.CallableStatement;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.Types;
 
-public class ProcDemo {
+public class MysqlConn {
 	// 定义Oracle的数据库驱动程序
-	public static final String DBDRIVER = "oracle.jdbc.driver.OracleDriver";
+	public static final String DBDRIVER = "com.mysql.jdbc.Driver";
 	// 定义Oracle数据库的连接地址
-	public static final String DBURL = "jdbc:oracle:thin:@ localhost:1521:orcl";
+	public static final String DBURL = "jdbc:mysql://localhost:3306/sampledb";
 	// Oracle数据库的连接用户名
-	public static final String DBUSER = "mytest";
+	public static final String DBUSER = "root";
 	// Oracle数据库的连接密码
-	public static final String DBPASS = "wxp123";
+	public static final String DBPASS = "123456";
 
 	public static void main(String[] args) throws Exception {
 		Connection conn = null; // 数据库连接

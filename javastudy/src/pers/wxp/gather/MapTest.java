@@ -14,6 +14,8 @@ public class MapTest {
 	public static void main(String[] args) {
 		Map<String, String> map1 = new HashMap<String, String>();
 		Map<String, String> map2 = new HashMap<String, String>();
+		map1.put("0", null);
+		map1.get("0").toString();
 		map1.put("1", "aaa1");
 		map1.put("2", "bbb2");
 		map2.put("10", "aaaa10");

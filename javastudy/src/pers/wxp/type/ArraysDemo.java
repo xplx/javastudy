@@ -2,6 +2,7 @@ package pers.wxp.type;
 
 import java.util.Arrays;
 
+import org.apache.commons.lang.ArrayUtils;
 import org.junit.Test;
 
 /**
@@ -22,6 +23,8 @@ public class ArraysDemo {
 		System.out.println(Arrays.toString(array1));
 		Arrays.sort(array1);// 排序
 		System.out.print(Arrays.toString(array1));
-
+		int[] intArray = { 1, 2, 3, 4, 5 };  
+		ArrayUtils.reverse(intArray);  
+		System.out.println(Arrays.toString(intArray));
 	}
 }

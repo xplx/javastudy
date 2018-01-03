@@ -105,8 +105,10 @@ public class StringTest {
 		String nodeName = "www.salvador.com#BusSystem#BusGateway.12345";
 		int lastIndex = nodeName.lastIndexOf("#");
 		// 索引从指定位置开始字符所在位置
-		int index = nodeName.indexOf(".", 26);
+		int index = nodeName.indexOf(".");
 		System.out.println(index);
+		String name = "User's name";
+		name = name.replace("'s", "");
 	}
 
 }
