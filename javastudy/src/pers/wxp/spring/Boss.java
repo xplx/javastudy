@@ -6,6 +6,8 @@ import javax.annotation.Resource;
 
 import org.springframework.stereotype.Component;
 
+import pers.wxp.spring.beanfactory.Car;
+
 @Component
 public class Boss {
 

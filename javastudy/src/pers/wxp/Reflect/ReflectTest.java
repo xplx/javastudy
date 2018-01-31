@@ -2,8 +2,8 @@ package pers.wxp.Reflect;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
-import java.util.ArrayList;
 import java.lang.reflect.Method;
+import java.util.ArrayList;
 
 public class ReflectTest {
 	private String proprety = null;
@@ -72,5 +72,15 @@ public class ReflectTest {
 		Method method = list.getClass().getMethod("add", Object.class);
 		method.invoke(list, "JavaList");
 		System.out.println(list.get(0));
+	}
+	public static void reflectTest() {
+		ClassLoader loader = Thread.currentThread().getContextClassLoader();
+		try {
+			Class clazz = loader.loadClass("pers.wxp.Reflect.ReflectTest");
+		} catch (ClassNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
 	}
 }

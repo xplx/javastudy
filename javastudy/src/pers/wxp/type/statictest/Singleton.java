@@ -30,7 +30,7 @@ public class Singleton {
 	// (2)创建静态对象为null
 	private static Singleton instance = null;
 
-	// (3)在getInstance方法上加同步
+	// (3)在getInstance方法上加上同步，表示防止两个线程同时进行对象的创建
 	public static synchronized Singleton getInstance() {
 
 		if (instance == null) {

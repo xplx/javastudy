@@ -1,30 +1,20 @@
-/** 
- * @file Base64Encoder.java 
- * @date 2016��8��5�� 
- * @version 3.4.1 
- * 
- * Copyright (c) 2013 Sihua Tech, Inc. All Rights Reserved. 
- */
 package pers.wxp.encrypt;
 
 import Decoder.BASE64Decoder;
 import Decoder.BASE64Encoder;
 
 /**
- * 
- * 
- * @author chengjian.he
- * @version 3.4, 2016��8��5�� ����10:44:22
- * @since Yeexun 3.4
+ * @author wxp
+ * @date 2018年1月18日 下午4:16:39
+ * @Description: TODO(Base64一开始是为了解决邮件中不能传文件和图片问题而使用的，将无法阅读的二进制码转化成字符形式，字符为（A-Za-z0-9+/）。)
  */
 public class Base64Encoder {
+	//加密
 	public static String getBASE64(String s) {
 		if (s == null)
 			return null;
 		return (new BASE64Encoder()).encode(s.getBytes());
 	}
-
-	// �� BASE64 ������ַ� s ���н��� ����
 	public static String getFromBASE64(String s) {
 		if (s == null)
 			return null;
@@ -47,7 +37,9 @@ public class Base64Encoder {
 
 	public static void main(String[] args) {
 		String a = mTOa("100000.89".toString());
-		System.out.println(a);// ����
-		System.out.println(aTOm(a));// ����
+		//加密
+		System.out.println(a);
+		//解密
+		System.out.println(aTOm(a));
 	}
 }

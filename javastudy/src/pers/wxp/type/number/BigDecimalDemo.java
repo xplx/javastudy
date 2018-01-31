@@ -1,4 +1,4 @@
-package pers.wxp.type;
+package pers.wxp.type.number;
 
 import java.math.BigDecimal;
 

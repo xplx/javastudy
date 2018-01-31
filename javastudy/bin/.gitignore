@@ -1,3 +1,4 @@
+/config.properties
 /file1.txt
 /log4j.properties
 /pers/
@@ -5,3 +6,4 @@
 /serializable.txt
 /spring/
 /test.xml
+/conf/
