@@ -1,7 +1,9 @@
 package pers.wxp.util;
 
+/**
+ *
+ */
 public final class ConfParameterUtil {
-	
 	public static volatile ConfParameterUtil instance = null;
 	
 	public Integer ssoTimeOut;
@@ -73,5 +75,4 @@ public final class ConfParameterUtil {
 		this.vcsUrl = vcsUrl;
 	}
 
-	
 }

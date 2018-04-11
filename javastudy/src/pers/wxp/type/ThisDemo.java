@@ -17,6 +17,11 @@ public class ThisDemo {
 	 * @param args
 	 * this ���õ������Ķ���
 	 */
+	/**
+	 * ${DESCRIPTION}
+	 * @author wuxiaopeng
+	 * @create  
+	 **/
 	public static void main(String[] args) {
 		ThisDemo thisDemo = new ThisDemo();
 		ThisDemo thisDemo1 = new ThisDemo();
