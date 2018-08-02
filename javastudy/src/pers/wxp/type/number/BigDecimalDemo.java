@@ -1,8 +1,8 @@
 package pers.wxp.type.number;
 
-import java.math.BigDecimal;
-
 import org.junit.Test;
+
+import java.math.BigDecimal;
 
 /**
  * @author wxp
@@ -77,5 +77,15 @@ public class BigDecimalDemo {
 		//除以100
 		String rechargeMoneyByYuan = new BigDecimal("1000").divide(new BigDecimal(100)).toString();// 转换成元
 		System.out.println(rechargeMoneyByYuan);
+	}
+
+	@Test
+	public void Compare(){
+		try {
+			Double d1 = 100.00;
+			System.out.println(String.format("%.2f", d1));
+		}catch (Exception e){
+			e.printStackTrace();
+		}
 	}
 }

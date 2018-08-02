@@ -1,9 +1,5 @@
 package pers.wxp.gather;
 
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.List;
-
 import org.junit.Test;
 
 /**
@@ -27,22 +23,8 @@ public class TList {
 	 */
 	@Test
 	public void AddSet() {
-		String a = "A", b = "B", c = "C", d = "D", e = "E";
-		List<String> list = new LinkedList<String>();
-		list.add(a);
-		list.add(e);
-		list.add(d);
-		list.set(1, b);// ������λ��Ϊ1�Ķ���e�޸�Ϊ����b
-		list.add(2, c);// ������c��ӵ�����λ��Ϊ2��λ��
-		Iterator<String> it = list.iterator();//ʹ�õ��ʽ������ѭ��
-		while (it.hasNext()) {
-			System.out.println(it.next());
-		}
-		
-		for (int i = 0; i < list.size(); i++) {//ʹ��forѭ���������
-			System.out.println(list.get(i));   // ����get(int index)�������ָ������λ�õĶ���
-			}
+		Double a = 1.00D;
+		System.out.println(String.format("%.2f",a));
 
 	}
-
 }

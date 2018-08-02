@@ -9,17 +9,10 @@ public class TestList {
 
     public static void main(String[] args) {
         List<String> list1 = new ArrayList<String>();
-        List<String> list2 = new ArrayList<String>();
-        for (int i = 0; i < 10000; i++) {
-            list1.add("test"+i);
-            list2.add("test"+i*2);
-        }
-        getDiffrent(list1,list2);
-        //�����total times 2566454675
-        getDiffrent2(list1,list2);
-        //�����getDiffrent2 total times 2787800964
-        getDiffrent3(list1,list2);
-        //�����getDiffrent3 total times 61763995
+          list1.add("1");
+          list1.add("1");
+          list1.add("1");
+        System.out.println(list1.size());
     }
     /**
      * ��ȡ����List�Ĳ�ͬԪ��

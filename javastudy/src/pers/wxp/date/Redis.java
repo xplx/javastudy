@@ -9,10 +9,6 @@ import redis.clients.jedis.Jedis;
  **/
 
 public class Redis {
-    public static void main(String[] args) {
-
-    }
-
     @Test
     public void testJedisSingle() {
         Jedis jedis = new Jedis("localhost", 6379);

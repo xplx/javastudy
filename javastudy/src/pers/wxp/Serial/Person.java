@@ -18,10 +18,11 @@ import java.util.Date;
  * @Description: TODO(测试实体类)
  */
 class Person implements Externalizable {
-	private static final long serialVersionUID = 1L;
 	String userName;
 	String password;
 	String age;
+	//添加这么一个成员变量
+	private String address;
 
 	public Person(String userName, String password, String age) {
 		super();

@@ -1,10 +1,10 @@
 package pers.wxp.gather;
 
+import org.junit.Test;
+
 import java.util.HashMap;
 import java.util.Hashtable;
 import java.util.Map;
-
-import org.junit.Test;
 
 /**
  * @author wxp
@@ -80,5 +80,14 @@ public class MapTest {
 		map1.put(5, "123");
 		System.out.println("map1.get(\"1\")=" + map1.get(5));
 		map1.putAll(map);
+	}
+	@Test
+	public void TypeHashTable1() {
+		try{
+			Map<Integer, Integer> map = null;
+			map.get(2);
+		}catch(Exception e){
+			System.out.println(e);
+		}
 	}
 }
