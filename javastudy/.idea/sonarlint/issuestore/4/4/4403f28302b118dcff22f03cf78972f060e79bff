@@ -1,0 +1,12 @@
+
+T
+squid:S106`"9Replace this use of System.out or System.err by a logger.(ı£üÿÿÿÿ
+T
+squid:S106a"9Replace this use of System.out or System.err by a logger.(¬ìİùÿÿÿÿ
+T
+squid:S106b"9Replace this use of System.out or System.err by a logger.(’¥Úàøÿÿÿÿ
+squid:S1488&"cImmediately return this expression instead of assigning it to the temporary variable "resultBytes".(õÄ¼ƒùÿÿÿÿ
+squid:S1488="cImmediately return this expression instead of assigning it to the temporary variable "resultBytes".(õÄ¼ƒùÿÿÿÿ
+=squid:S1168)"&Return an empty array instead of null.(¥¹ï
+=squid:S1168@"&Return an empty array instead of null.(¥¹ï
+Csquid:S4426Q"'Use a key length of at least 2048 bits.(ª«½ÿÿÿÿÿ

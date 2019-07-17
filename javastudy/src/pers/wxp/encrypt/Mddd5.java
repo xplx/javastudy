@@ -10,11 +10,11 @@ import javax.crypto.spec.DESedeKeySpec;
 
 public class Mddd5 {
 	/**
-	 * ½øÐÐMD5¼ÓÃÜ
+	 * ï¿½ï¿½ï¿½ï¿½MD5ï¿½ï¿½ï¿½ï¿½
 	 * 
 	 * @param String
-	 *            Ô­Ê¼µÄSPKEY
-	 * @return byte[] Ö¸¶¨¼ÓÃÜ·½Ê½Îªmd5ºóµÄbyte[]
+	 *            Ô­Ê¼ï¿½ï¿½SPKEY
+	 * @return byte[] Ö¸ï¿½ï¿½ï¿½ï¿½ï¿½Ü·ï¿½Ê½Îªmd5ï¿½ï¿½ï¿½byte[]
 	 */
 	private static byte[] md5(String strSrc) {
 		byte[] returnByte = null;
@@ -28,11 +28,11 @@ public class Mddd5 {
 	}
 
 	/**
-	 * µÃµ½3-DESµÄÃÜÔ¿³× ¸ù¾Ý¸ù¾ÝÐèÒª£¬ÈçÃÜÔ¿³×Îª24¸ö×Ö½Ú£¬md5¼ÓÃÜ³öÀ´µÄÊÇ16¸ö×Ö½Ú£¬Òò´ËºóÃæ²¹8¸ö×Ö½ÚµÄ0
+	 * ï¿½Ãµï¿½3-DESï¿½ï¿½ï¿½ï¿½Ô¿ï¿½ï¿½ ï¿½ï¿½ï¿½Ý¸ï¿½ï¿½ï¿½ï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô¿ï¿½ï¿½Îª24ï¿½ï¿½ï¿½Ö½Ú£ï¿½md5ï¿½ï¿½ï¿½Ü³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½16ï¿½ï¿½ï¿½Ö½Ú£ï¿½ï¿½ï¿½Ëºï¿½ï¿½æ²¹8ï¿½ï¿½ï¿½Ö½Úµï¿½0
 	 * 
 	 * @param String
-	 *            Ô­Ê¼µÄSPKEY
-	 * @return byte[] Ö¸¶¨¼ÓÃÜ·½Ê½Îªmd5ºóµÄbyte[]
+	 *            Ô­Ê¼ï¿½ï¿½SPKEY
+	 * @return byte[] Ö¸ï¿½ï¿½ï¿½ï¿½ï¿½Ü·ï¿½Ê½Îªmd5ï¿½ï¿½ï¿½byte[]
 	 */
 	private static byte[] getEnKey(String spKey) {
 		byte[] desKey = null;
@@ -55,13 +55,13 @@ public class Mddd5 {
 	}
 
 	/**
-	 * 3-DES¼ÓÃÜ
+	 * 3-DESï¿½ï¿½ï¿½ï¿½
 	 * 
 	 * @param byte[]
-	 *            src Òª½øÐÐ3-DES¼ÓÃÜµÄbyte[]
+	 *            src Òªï¿½ï¿½ï¿½ï¿½3-DESï¿½ï¿½ï¿½Üµï¿½byte[]
 	 * @param byte[]
-	 *            enKey 3-DES¼ÓÃÜÃÜÔ¿
-	 * @return byte[] 3-DES¼ÓÃÜºóµÄbyte[]
+	 *            enKey 3-DESï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô¿
+	 * @return byte[] 3-DESï¿½ï¿½ï¿½Üºï¿½ï¿½byte[]
 	 */
 	public static byte[] Encrypt(byte[] src, byte[] enKey) {
 		byte[] encryptedData = null;
@@ -79,7 +79,7 @@ public class Mddd5 {
 	}
 
 	/** 
-     * Éú³ÉMD5¼òµ¥·½·¨ 
+     * ï¿½ï¿½ï¿½ï¿½MD5ï¿½òµ¥·ï¿½ï¿½ï¿½ 
      * @param str 
      * @return 
      */  
@@ -111,6 +111,5 @@ public class Mddd5 {
 		getMD5("123456");
 		System.out.println(getMD5("123456"));
 		getMD5("123456");
-
 	}
 }

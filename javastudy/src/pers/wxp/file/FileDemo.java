@@ -11,9 +11,13 @@ import java.io.OutputStream;
 import org.junit.Test;
 
 public class FileDemo {
+	/**
+	 * 將文件寫入
+	 * @throws IOException
+	 */
 	@Test
 	public void fileDemo1() throws IOException {
-		File file1 = new java.io.File("E:\\demo.txt");
+		File file1 = new java.io.File("F:\\file.txt");
 		// OutputStream output = new FileOutputStream(file1);//通过子类实例化父类，覆盖的方式
 		OutputStream output = new FileOutputStream(file1, true);// 通过子类实例化父类，追加的方式
 		if (file1.exists()) {
@@ -36,7 +40,7 @@ public class FileDemo {
 	 */
 	@Test
 	public void fileDemo2() throws IOException {
-		File file1 = new java.io.File("E:\\demo.txt");
+		File file1 = new java.io.File("F:\\file.txt");
 		// OutputStream output = new FileOutputStream(file1);//通过子类实例化父类，覆盖的方式
 		InputStream input = new FileInputStream(file1);// 通过子类实例化父类，追加的方式
 		byte data[] = new byte[10];//
@@ -53,7 +57,7 @@ public class FileDemo {
 	 */
 	@Test
 	public void fileDemo3() throws IOException {
-		File file1 = new java.io.File("E:\\demo.txt");
+		File file1 = new java.io.File("F:\\file.txt");
 		// OutputStream output = new FileOutputStream(file1);//通过子类实例化父类，覆盖的方式
 		InputStream input = new FileInputStream(file1);// 通过子类实例化父类，追加的方式
 		byte data[] = new byte[1024];

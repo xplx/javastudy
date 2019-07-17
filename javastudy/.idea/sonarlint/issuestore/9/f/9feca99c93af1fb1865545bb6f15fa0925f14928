@@ -1,0 +1,28 @@
+
+©%squid:RedundantThrowsDeclarationCheck%"xRemove the declaration of thrown exception 'java.io.FileNotFoundException' which is a subclass of 'java.io.IOException'.(‡‚š
+fsquid:S1192v"ODefine a constant instead of duplicating this literal "ï¿½ï¿½ï¿½ï¿½: " 4 times.(£øÿ
+gsquid:S20959"PUse try-with-resources or close this "ObjectOutputStream" in a "finally" clause.(üËì
+ksquid:S2095g"OUse try-with-resources or close this "ObjectInputStream" in a "finally" clause.(ÎÀôİùÿÿÿÿ
+fsquid:S2095k"OUse try-with-resources or close this "ObjectInputStream" in a "finally" clause.(áÏØÈ
+gsquid:S20954"PUse try-with-resources or close this "ObjectOutputStream" in a "finally" clause.(—×»
+T
+squid:S106>"9Replace this use of System.out or System.err by a logger.(§˜ÕÓüÿÿÿÿ
+T
+squid:S106Z"9Replace this use of System.out or System.err by a logger.(ó»ÿ½ıÿÿÿÿ
+O
+squid:S106t"9Replace this use of System.out or System.err by a logger.(‰İÔÊ
+O
+squid:S106v"9Replace this use of System.out or System.err by a logger.(£øÿ
+O
+squid:S106x"9Replace this use of System.out or System.err by a logger.(ñ¹¿
+O
+squid:S106|"9Replace this use of System.out or System.err by a logger.(‰İÔÊ
+T
+squid:S106~"9Replace this use of System.out or System.err by a logger.(øà“áúÿÿÿÿ
+P
+squid:S106€"9Replace this use of System.out or System.err by a logger.(Å“õ¯
+zsquid:S1488S"cImmediately return this expression instead of assigning it to the temporary variable "resultBytes".(ĞøìÑ
+zsquid:S1488W"cImmediately return this expression instead of assigning it to the temporary variable "resultBytes".(ĞøìÑ
+=squid:S1168]"&Return an empty array instead of null.(¥¹ï
+csquid:S00112K"FDefine and throw a dedicated exception instead of using a generic one.(åªÎ­şÿÿÿÿ
+Csquid:S4426)"'Use a key length of at least 2048 bits.(ª«½ÿÿÿÿÿ

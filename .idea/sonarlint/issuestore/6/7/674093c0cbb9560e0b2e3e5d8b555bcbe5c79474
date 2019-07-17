@@ -1,0 +1,43 @@
+
+<squid:S2189""Add an end condition to this loop.(˜ïˆžÿÿÿÿÿ
+<squid:S2189""Add an end condition to this loop.(˜ïˆžÿÿÿÿÿ
+<squid:S2189""Add an end condition to this loop.(˜ïˆžÿÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(ŸêÉÄüÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(•‡§
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(¸¹®¹
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(ŸêÉÄüÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(•‡§
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(¹˜î
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(ŸêÉÄüÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(•‡§
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(ŠþèÁ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(­èâ úÿÿÿÿ
+Lsquid:S1135"2Complete the task associated to this TODO comment.(ÕÌ®þÿÿÿÿ
+Lsquid:S1135"2Complete the task associated to this TODO comment.(ÕÌ®þÿÿÿÿ
+Lsquid:S1135"2Complete the task associated to this TODO comment.(ÕÌ®þÿÿÿÿ
+Wsquid:CallToDeprecatedMethod",Remove this use of "stop"; it is deprecated.(ˆÙÔ„ÿÿÿÿÿ
+Rsquid:CallToDeprecatedMethod",Remove this use of "stop"; it is deprecated.(ÖÔÏœ
+Rsquid:CallToDeprecatedMethod",Remove this use of "stop"; it is deprecated.(Óã‘
+isquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦°Ø ýÿÿÿÿ
+isquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘¡è’ÿÿÿÿÿ
+dsquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œ‘È¢
+dsquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(þÏÕ
+[squid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+[squid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+[squid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+=squid:S1604"(Make this anonymous inner class a lambda(˜ûÏü
+<squid:S1604"(Make this anonymous inner class a lambda(çôˆ
+=squid:S1604"(Make this anonymous inner class a lambda(•ÎÍ
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ

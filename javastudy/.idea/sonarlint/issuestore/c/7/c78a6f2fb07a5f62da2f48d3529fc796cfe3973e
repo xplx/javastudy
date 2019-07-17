@@ -1,0 +1,10 @@
+
+N
+squid:S106>"9Replace this use of System.out or System.err by a logger.(£¿­@
+T
+squid:S106E"9Replace this use of System.out or System.err by a logger.(ÑÉŽþÿÿÿÿ
+Bsquid:S14816"+Remove this unused "result" local variable.(ÐÝ—š
+csquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(‘›¦ùÿÿÿÿ
+Qsquid:S18546":Remove this useless assignment to local variable "result".(ÐÝ—š
+?squid:S1148O"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+>squid:S4426"'Use a key length of at least 2048 bits.(“½ßÉ

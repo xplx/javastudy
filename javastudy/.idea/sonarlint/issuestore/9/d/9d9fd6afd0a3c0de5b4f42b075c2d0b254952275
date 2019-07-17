@@ -1,0 +1,11 @@
+
+Osquid:S1854"8Remove this useless assignment to local variable "ins2".(É•¾Õ
+@squid:S1481")Remove this unused "ins2" local variable.(É•¾Õ
+_squid:S1075"ARefactor your code to get this URI from a customizable parameter.(¸»é–8îØÌĞ¿-
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ã¸œİ
+O
+squid:S106""9Replace this use of System.out or System.err by a logger.(ùé€
+N
+squid:S106!"9Replace this use of System.out or System.err by a logger.(ÁÍ—
+?squid:S1148$"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ

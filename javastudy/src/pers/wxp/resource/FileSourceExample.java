@@ -11,9 +11,9 @@ public class FileSourceExample {
 
 	public static void main(String[] args) {
 		try {
-			String filePath = "conf/file1.txt";
+			String filePath = "F:/file.txt";
 			WritableResource res1 = new PathResource(filePath);
-			Resource res2 = new ClassPathResource("conf/file1.txt");
+			Resource res2 = new ClassPathResource("F:/file.txt");
 			
 			//写资源
 			OutputStream stream1 = res1.getOutputStream();

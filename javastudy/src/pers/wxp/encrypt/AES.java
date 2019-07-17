@@ -2,7 +2,7 @@ package pers.wxp.encrypt;
 
 /** 
  * @file AES.java 
- * @date 2016Äê8ÔÂ5ÈÕ 
+ * @date 2016ï¿½ï¿½8ï¿½ï¿½5ï¿½ï¿½ 
  * @version 3.4.1 
  * 
  * Copyright (c) 2013 Sihua Tech, Inc. All Rights Reserved. 
@@ -14,7 +14,7 @@ import java.io.FileOutputStream;
  *  
  * 
  * @author chengjian.he 
- * @version  3.4, 2016Äê8ÔÂ5ÈÕ ÉÏÎç11:35:13  
+ * @version  3.4, 2016ï¿½ï¿½8ï¿½ï¿½5ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½11:35:13  
  * @since   Yeexun 3.4 
  */
 import java.io.IOException;
@@ -40,7 +40,7 @@ public class AES {
 	private Key key;
 
 	/**
-	 * Éú³ÉAES¶Ô³ÆÃØÔ¿
+	 * ï¿½ï¿½ï¿½ï¿½AESï¿½Ô³ï¿½ï¿½ï¿½Ô¿
 	 * 
 	 * @throws NoSuchAlgorithmException
 	 */
@@ -52,7 +52,7 @@ public class AES {
 	}
 
 	/**
-	 * ¼ÓÃÜ
+	 * ï¿½ï¿½ï¿½ï¿½
 	 * 
 	 * @param in
 	 * @param out
@@ -71,7 +71,7 @@ public class AES {
 	}
 
 	/**
-	 * ½âÃÜ
+	 * ï¿½ï¿½ï¿½ï¿½
 	 * 
 	 * @param in
 	 * @param out
@@ -90,7 +90,7 @@ public class AES {
 	}
 
 	/**
-	 * Êµ¼ÊµÄ¼ÓÃÜ½âÃÜ¹ý³Ì
+	 * Êµï¿½ÊµÄ¼ï¿½ï¿½Ü½ï¿½ï¿½Ü¹ï¿½ï¿½ï¿½
 	 * 
 	 * @param in
 	 * @param out
