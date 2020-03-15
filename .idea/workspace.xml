@@ -2,15 +2,50 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b2a923d-2cd3-43df-ba41-077ceb8f006f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pers/wxp/file/ReadLine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/.gitignore" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pers/wxp/threadpool/ExecutorServiceDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/Reflect/ReflectTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/pers/wxp/Reflect/ReflectTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/Serial/ContinueRead.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/pers/wxp/Serial/ContinueRead.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/Serial/DSerialPort.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/pers/wxp/Serial/DSerialPort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/TcpIp/SocketThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/pers/wxp/TcpIp/SocketThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/TcpIp/TCPThreadServerSocket.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/pers/wxp/TcpIp/TCPThreadServerSocket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/date/TimeCompare.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/pers/wxp/date/TimeCompare.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/pers/wxp/encrypt/Mddd5.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/pers/wxp/encrypt/Mddd5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/file/FileDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/pers/wxp/file/FileDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/gather/MapDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/pers/wxp/gather/MapDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/encrypt/AES.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pers/wxp/encrypt/AES.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/encrypt/Mddd5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pers/wxp/encrypt/Mddd5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/file/FileDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pers/wxp/file/FileDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/resource/FileSourceExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pers/wxp/resource/FileSourceExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/gather/CacheManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/pers/wxp/gather/CacheManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/gather/ListTestLoop.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/pers/wxp/gather/ListTestLoop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/thread/CommonCook.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/pers/wxp/thread/CommonCook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/thread/ExecDemo02.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/pers/wxp/thread/ExecDemo02.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/thread/FutureCook.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/pers/wxp/thread/FutureCook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/thread/LockTest$Adder.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/pers/wxp/thread/LockTest$Adder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/thread/LockTest$Subtractor.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/pers/wxp/thread/LockTest$Subtractor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/thread/LockTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/pers/wxp/thread/LockTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/thread/MultiThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/pers/wxp/thread/MultiThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/thread/StopDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/pers/wxp/thread/StopDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/thread/ThreadPriorityDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/pers/wxp/thread/ThreadPriorityDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/thread/ThreadSleepDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/pers/wxp/thread/ThreadSleepDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/thread/ThreadYieldDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/pers/wxp/thread/ThreadYieldDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/threadpool/CreateThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/pers/wxp/threadpool/CreateThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/threadpool/JvmHow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/threadpool/SubThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/pers/wxp/threadpool/SubThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/threadpool/TempThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/pers/wxp/threadpool/TempThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/threadpool/ThreadPoolTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/pers/wxp/threadpool/ThreadPoolTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/throwdemo/ThrowDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/pers/wxp/throwdemo/ThrowDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/type/Crc16Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/pers/wxp/type/Crc16Demo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/util/ConversionUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/pers/wxp/util/ConversionUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/util/DataConversion.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/pers/wxp/util/DataConversion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/util/FaceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/pers/wxp/util/FaceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/util/OSSUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/pers/wxp/util/OSSUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/util/PdfToHtml.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/pers/wxp/util/PdfToHtml.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/util/PdfUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/pers/wxp/util/PdfUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/util/StringUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/pers/wxp/util/StringUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/util/TypeJudge.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/pers/wxp/util/TypeJudge.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/xml/ValidationHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/pers/wxp/xml/ValidationHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pers/wxp/gather/ArrayTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pers/wxp/threadpool/CreateThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pers/wxp/threadpool/CreateThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pers/wxp/threadpool/JvmHow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pers/wxp/jvm/JvmHow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pers/wxp/threadpool/ThreadPoolTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pers/wxp/threadpool/ThreadPoolTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,44 +55,42 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pers/wxp/file/FileDemo.java">
+        <entry file="file://$PROJECT_DIR$/src/pers/wxp/threadpool/MoreThreadDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="45" column="16" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
+            <state relative-caret-position="-2300">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resource/conf/file1.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pers/wxp/resource/fiel.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pers/wxp/resource/FileSourceExample.java">
+        <entry file="file://$PROJECT_DIR$/src/pers/wxp/threadpool/SubThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
+            <state relative-caret-position="125">
+              <caret line="75" column="13" lean-forward="true" selection-start-line="75" selection-start-column="13" selection-end-line="75" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pers/wxp/threadpool/ThreadPoolTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="121">
+              <caret line="20" column="8" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="67" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/pers/wxp/file/ReadLine.java">
+        <entry file="file://$PROJECT_DIR$/src/pers/wxp/threadpool/ExecutorServiceDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="26" column="46" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
+            <state relative-caret-position="-29">
+              <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -66,31 +99,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pers/wxp/resource/EncodedResourceExample.java">
+        <entry file="file://$PROJECT_DIR$/src/pers/wxp/threadpool/TempThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pers/wxp/file/EncodedResourceExample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pers/wxp/file/FileSourceExample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            <state relative-caret-position="250">
+              <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -104,8 +116,13 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>使用连接池运行</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -118,6 +135,11 @@
         <option value="$PROJECT_DIR$/src/pers/wxp/resource/FileSourceExample.java" />
         <option value="$PROJECT_DIR$/src/pers/wxp/file/FileDemo.java" />
         <option value="$PROJECT_DIR$/src/pers/wxp/file/ReadLine.java" />
+        <option value="$PROJECT_DIR$/src/pers/wxp/threadpool/CreateThread.java" />
+        <option value="$PROJECT_DIR$/src/pers/wxp/jvm/JvmHow.java" />
+        <option value="$PROJECT_DIR$/src/pers/wxp/threadpool/TempThread.java" />
+        <option value="$PROJECT_DIR$/src/pers/wxp/threadpool/ThreadPoolTest.java" />
+        <option value="$PROJECT_DIR$/src/pers/wxp/threadpool/ExecutorServiceDemo.java" />
       </list>
     </option>
   </component>
@@ -134,14 +156,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="260" />
     <option name="y" value="20" />
     <option name="width" value="1400" />
@@ -153,6 +168,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -176,14 +193,7 @@
               <item name="javastudy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="wxp" type="462c0819:PsiDirectoryNode" />
-              <item name="file" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javastudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javastudy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="wxp" type="462c0819:PsiDirectoryNode" />
-              <item name="resource" type="462c0819:PsiDirectoryNode" />
+              <item name="threadpool" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="javastudy" type="b2602c69:ProjectViewProjectNode" />
@@ -193,18 +203,22 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="pers.wxp.jvm" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -218,9 +232,37 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReadLine">
+  <component name="RunManager" selected="Application.ExecutorServiceDemo">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExecDemo01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pers.wxp.thread.ExecDemo01" />
+      <module name="javastudy" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pers.wxp.thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExecutorServiceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pers.wxp.threadpool.ExecutorServiceDemo" />
+      <module name="javastudy" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pers.wxp.threadpool.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -253,59 +295,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ThreadPoolTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pers.wxp.threadpool.ThreadPoolTest" />
+      <module name="javastudy" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pers.wxp.threadpool.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FileDemo.fileDemo1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="javastudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pers.wxp.file.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pers.wxp.file" />
-      <option name="MAIN_CLASS_NAME" value="pers.wxp.file.FileDemo" />
-      <option name="METHOD_NAME" value="fileDemo1" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FileDemo.fileDemo2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="javastudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pers.wxp.file.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pers.wxp.file" />
-      <option name="MAIN_CLASS_NAME" value="pers.wxp.file.FileDemo" />
-      <option name="METHOD_NAME" value="fileDemo2" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FileDemo.fileDemo3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="javastudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pers.wxp.file.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pers.wxp.file" />
-      <option name="MAIN_CLASS_NAME" value="pers.wxp.file.FileDemo" />
-      <option name="METHOD_NAME" value="fileDemo3" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -338,17 +343,17 @@
     <list>
       <item itemvalue="Application.FileSourceExample" />
       <item itemvalue="Application.ReadLine" />
-      <item itemvalue="JUnit.FileDemo.fileDemo1" />
-      <item itemvalue="JUnit.FileDemo.fileDemo2" />
-      <item itemvalue="JUnit.FileDemo.fileDemo3" />
+      <item itemvalue="Application.ExecDemo01" />
+      <item itemvalue="Application.ThreadPoolTest" />
+      <item itemvalue="Application.ExecutorServiceDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExecutorServiceDemo" />
+        <item itemvalue="Application.ThreadPoolTest" />
+        <item itemvalue="Application.ExecDemo01" />
         <item itemvalue="Application.ReadLine" />
         <item itemvalue="Application.FileSourceExample" />
-        <item itemvalue="JUnit.FileDemo.fileDemo3" />
-        <item itemvalue="JUnit.FileDemo.fileDemo2" />
-        <item itemvalue="JUnit.FileDemo.fileDemo1" />
       </list>
     </recent_temporary>
   </component>
@@ -367,6 +372,7 @@
       <workItem from="1548055002657" duration="1780000" />
       <workItem from="1548211520461" duration="650000" />
       <workItem from="1563267995750" duration="3038000" />
+      <workItem from="1584239855659" duration="4530000" />
     </task>
     <servers />
   </component>
@@ -388,30 +394,23 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9623000" />
+    <option name="totallyTimeSpent" value="14153000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <layout>
-      <window_info id="Hadoop FileSystem" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14872068" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18333334" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Run with VisualVM" />
-      <window_info anchor="bottom" id="SonarLint" />
-      <window_info anchor="bottom" id="Tail" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="MyBatis Sql Log" />
-      <window_info anchor="bottom" id="Debug with VisualVM" />
+      <window_info id="Hadoop FileSystem" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.1765363" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.2793296" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.14802065" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -419,11 +418,15 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.2972067" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.2960413" />
       <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="bottom" id="Spring" order="13" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="RestServices" />
+      <window_info anchor="bottom" id="SonarLint" order="14" />
+      <window_info anchor="bottom" id="Run with VisualVM" order="15" />
+      <window_info anchor="bottom" id="Database Changes" order="16" />
+      <window_info anchor="bottom" id="MyBatis Sql Log" order="17" />
+      <window_info anchor="bottom" id="Debug with VisualVM" order="18" />
+      <window_info anchor="bottom" id="Tail" order="19" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -434,6 +437,8 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="right" id="Maven" order="10" />
+      <window_info anchor="right" id="RestServices" order="11" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -465,6 +470,18 @@
           <line>14</line>
           <properties />
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/pers/wxp/threadpool/ThreadPoolTest.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/pers/wxp/threadpool/ExecutorServiceDemo.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -593,33 +610,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pers/wxp/file/FileSourceExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pers/wxp/file/EncodedResourceExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pers/wxp/resource/EncodedResourceExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pers/wxp/file/FileDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
+        <state relative-caret-position="925">
           <caret line="45" column="16" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
         </state>
       </provider>
@@ -632,15 +625,129 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pers/wxp/resource/FileSourceExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
+        <state relative-caret-position="350">
           <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pers/wxp/resource/EncodedResourceExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pers/wxp/file/EncodedResourceExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pers/wxp/file/FileSourceExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pers/wxp/file/ReadLine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="26" column="46" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
+        <state relative-caret-position="126">
+          <caret line="24" column="17" lean-forward="true" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pers/wxp/gather/ArrayTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="579">
+          <caret line="26" column="30" lean-forward="true" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pers/wxp/thread/ExecDemo01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pers/wxp/throwdemo/ThrowDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="19" column="30" lean-forward="true" selection-end-line="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pers/wxp/threadpool/CreateThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="33" column="2" selection-start-line="33" selection-start-column="2" selection-end-line="33" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pers/wxp/threadpool/JvmHow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-743">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pers/wxp/jvm/JvmHow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pers/wxp/threadpool/MoreThreadDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2300">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/workSoftware/jdk1.8/src.zip!/java/util/concurrent/ExecutorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="263" column="14" selection-start-line="263" selection-start-column="14" selection-end-line="263" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pers/wxp/threadpool/SubThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="75" column="13" lean-forward="true" selection-start-line="75" selection-start-column="13" selection-end-line="75" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pers/wxp/threadpool/TempThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pers/wxp/threadpool/ThreadPoolTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="20" column="8" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pers/wxp/threadpool/ExecutorServiceDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-29">
+          <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -704,6 +811,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

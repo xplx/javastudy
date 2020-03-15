@@ -1,4 +1,4 @@
-package pers.wxp.threadpool;
+package pers.wxp.jvm;
 
 public class JvmHow {
 

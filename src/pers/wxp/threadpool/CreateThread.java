@@ -31,6 +31,5 @@ public class CreateThread {
                 System.out.println("已创建新的子线程: " + td.getName());  
             }  
         }  
-  
-    }  
+    }
 }  
