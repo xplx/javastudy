@@ -1,4 +1,0 @@
-source folder存放的是你的源代码，java文件和一些必须放在此目录下的配置文件，如logback.xml文件。
-普通的folder文件夹主要是为了自己管理资源使用，如图标文件、jsp以及其他配置文件等
-普通folder不会被eclipse用作编译路径，普通的folder可以通过右键->build path中设置为source folder
-

@@ -1,10 +1,0 @@
-
-r
-squid:S135"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆÿÿÿÿÿ
-R
-squid:S106"9Replace this use of System.out or System.err by a logger.(‘î Şøÿÿÿÿ
-Tsquid:S1118":Add a private constructor to hide the implicit public one.(òªşÿÿÿÿ
-\squid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(ªÛ·¢
-asquid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(¯åÕøÿÿÿÿ
-Qsquid:S1854"7Remove this useless assignment to local variable "bos".(ÿÕíõùÿÿÿÿ
-tsquid:S1149"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(‚ïî¼
