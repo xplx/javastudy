@@ -1,4 +1,4 @@
-package pers.wxp.Reflect;
+package pers.wxp.reflect;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
@@ -12,7 +12,7 @@ public class TestReflect1 {
 	String fileds = "类属性";
 	public static void main(String[] args) throws Exception {
 		//// 根据类的全路径进行类加载，返回该类的Class对象
-		Class<?> clazz = Class.forName("pers.wxp.Reflect.TestReflect1");
+		Class<?> clazz = Class.forName("pers.wxp.reflect.TestReflect1");
 		// 利用得到的Class对象的自审，返回方法对象集合( Java的反射机制它知道类的基本结构，这种对Java类结构探知的能力，我们称为Java类的“自审”。)
 		Method[] method = clazz.getDeclaredMethods();
 		for (Method method2 : method) {

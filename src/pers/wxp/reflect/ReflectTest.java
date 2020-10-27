@@ -1,4 +1,4 @@
-package pers.wxp.Reflect;
+package pers.wxp.reflect;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
@@ -33,7 +33,7 @@ public class ReflectTest {
 		Class<?> class2 = null;
 		Class<?> class3 = null;
 		try {
-			class1 = Class.forName("pers.wxp.Reflect.ReflectTest");// 获取类对象
+			class1 = Class.forName("pers.wxp.reflect.ReflectTest");// 获取类对象
 		} catch (ClassNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();// 打印错误
@@ -57,7 +57,7 @@ public class ReflectTest {
 	public static void getDeclaredFieldTest() throws ClassNotFoundException, InstantiationException,
 			IllegalAccessException, NoSuchFieldException, SecurityException {
 
-		Class<?> clazz = Class.forName("pers.wxp.Reflect.ReflectTest");// 获取对象
+		Class<?> clazz = Class.forName("pers.wxp.reflect.ReflectTest");// 获取对象
 		Object obj = clazz.newInstance();// 实例化对象ֵ
 		Field field = clazz.getDeclaredField("proprety");//取得类中的成员
 		field.setAccessible(true);//解除封装
@@ -76,7 +76,7 @@ public class ReflectTest {
 	public static void reflectTest() {
 		ClassLoader loader = Thread.currentThread().getContextClassLoader();
 		try {
-			Class clazz = loader.loadClass("pers.wxp.Reflect.ReflectTest");
+			Class clazz = loader.loadClass("pers.wxp.reflect.ReflectTest");
 		} catch (ClassNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
