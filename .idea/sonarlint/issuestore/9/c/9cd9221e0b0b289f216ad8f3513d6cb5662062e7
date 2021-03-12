@@ -1,7 +1,0 @@
-
-hsquid:S2674"JCheck the return value of the "read" call to see how many bytes were read.(Òö¨»8ì¯–Ñ¿-
-‚squid:S1149"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(ì­ŠÜúÿÿÿÿ8ÏîïĞ¿-
-Msquid:S1066#"/Merge this if statement with the enclosing one.(­á½8’˜”Ñ¿-
-osquid:S2095"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(ĞÃÖ‚ûÿÿÿÿ8ùÆàĞ¿-
-V
-squid:S1062"9Replace this use of System.out or System.err by a logger.(àà¤®8ğÇûĞ¿-

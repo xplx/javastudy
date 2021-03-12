@@ -1,11 +1,0 @@
-
-]squid:S1075"ARefactor your code to get this URI from a customizable parameter.(úºœéøÿÿÿÿ
-O
-squid:S106$"9Replace this use of System.out or System.err by a logger.(Ã¸œİ
-N
-squid:S106&"9Replace this use of System.out or System.err by a logger.(ÁÍ—
-O
-squid:S106'"9Replace this use of System.out or System.err by a logger.(ùé€
-@squid:S1481")Remove this unused "ins2" local variable.(É•¾Õ
-Osquid:S1854"8Remove this useless assignment to local variable "ins2".(É•¾Õ
-?squid:S1148)"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ

@@ -1,6 +1,0 @@
-
-^squid:S1075“"ARefactor your code to get this URI from a customizable parameter.(ÆÉ¿µúÿÿÿÿ
-^squid:S1075•"ARefactor your code to get this URI from a customizable parameter.(ƒÎ½Ëüÿÿÿÿ
-Zsquid:UselessImportCheck"6Remove this unused import 'java.io.ObjectInputStream'.(Éæéœ
-lsquid:UselessImportCheck"CRemove this unused import 'java.security.interfaces.RSAPrivateKey'.(Ç½ß’øÿÿÿÿ
-ksquid:UselessImportCheck"BRemove this unused import 'java.security.interfaces.RSAPublicKey'.(‘±–˜ÿÿÿÿÿ

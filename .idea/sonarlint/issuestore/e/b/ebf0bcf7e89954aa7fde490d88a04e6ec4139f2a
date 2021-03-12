@@ -1,75 +1,0 @@
-
-xsquid:S1192Œ"[Define a constant instead of duplicating this literal "			<last>IcReceiver</last>" 3 times.(¬Ø†ûÿÿÿÿ
-Osquid:S1135Ş"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
-gsquid:S1192t"PDefine a constant instead of duplicating this literal "VP8500.12345678" 3 times.(ÎŠ
-esquid:S1192f"IDefine a constant instead of duplicating this literal "	<Check>" 4 times.(¢¤¬’ÿÿÿÿÿ
-Fsquid:S1068"*Remove this unused "logger" private field.(äÏ–üÿÿÿÿ
-dsquid:S3986s"HMake sure that Week Year "YYYY" is expected here instead of Year "yyyy".(Ì‰§ÿÿÿÿÿ
-Asquid:S1481v"*Remove this unused "value" local variable.(Ÿ ñ
-:squid:S1989"#Add a "try/catch" block for "send".(ğÄè
-asquid:S1192i"JDefine a constant instead of duplicating this literal "	</Check>" 4 times.(ĞÓ·¯
-bsquid:S1192"JDefine a constant instead of duplicating this literal "		</Name>" 3 times.(–ÑÒ¬
-esquid:S3986”"HMake sure that Week Year "YYYY" is expected here instead of Year "yyyy".(Ì‰§ÿÿÿÿÿ
-`squid:S1192Z"IDefine a constant instead of duplicating this literal "<Header>" 4 times.(˜¥â
-O
-squid:S106*"9Replace this use of System.out or System.err by a logger.(í³¶ø
-Fsquid:S1481·")Remove this unused "type" local variable.(ı…Ğëùÿÿÿÿ
-Ysquid:S1854."BRemove this useless assignment to local variable "testServletUrl".(±Ü†ˆ
-fsquid:S1192†"IDefine a constant instead of duplicating this literal "		<Name>" 3 times.( Õ†×ıÿÿÿÿ
-hsquid:S1192…"KDefine a constant instead of duplicating this literal "	<Request>" 3 times.(µŞØÒøÿÿÿÿ
-<squid:S1989""%Add a "try/catch" block for "doPost".(‘›şá
-dsquid:S3986S"HMake sure that Week Year "YYYY" is expected here instead of Year "yyyy".(Ì‰§ÿÿÿÿÿ
-<squid:S1989""%Add a "try/catch" block for "doPost".(‘›şá
-Nsquid:S11351"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
-Nsquid:S1135!"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ
-{squid:S1149E"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(ì­ŠÜúÿÿÿÿ
-Esquid:S1481u")Remove this unused "type" local variable.(ı…Ğëùÿÿÿÿ
-^squid:S1854+"BRemove this useless assignment to local variable "testServletUrl".(ÑïÍ ùÿÿÿÿ
-hsquid:CommentedOutCodeLineã"<This block of commented-out lines of code should be removed.(±ñØÙúÿÿÿÿ
-U
-squid:S106Ü"9Replace this use of System.out or System.err by a logger.(Š•éùÿÿÿÿ
-csquid:S001126"FDefine and throw a dedicated exception instead of using a generic one.(éåêâÿÿÿÿÿ
-hsquid:CommentedOutCodeLineÛ"<This block of commented-out lines of code should be removed.(¬¨Ö©ûÿÿÿÿ
-asquid:S1192n"JDefine a constant instead of duplicating this literal "</Header>" 4 times.(ÓŠˆš
-Ssquid:UselessImportCheck	"*Remove this unused import 'java.sql.Time'.(Üå»‰şÿÿÿÿ
-_squid:S1192_"HDefine a constant instead of duplicating this literal "</last>" 4 times.(¶éİ…
-U
-squid:S106ß"9Replace this use of System.out or System.err by a logger.(Üâãºøÿÿÿÿ
-wsquid:S4144“"_Update this method so that its implementation is not identical to "getSelectInfo1" on line 114.(±íÕÂ
-Nsquid:S1135"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ
-hsquid:CommentedOutCodeLine¨"<This block of commented-out lines of code should be removed.(¢™†åúÿÿÿÿ
-Bsquid:S1481'"+Remove this unused "result" local variable.(àı¿Õ
-Fsquid:S1481–")Remove this unused "type" local variable.(ı…Ğëùÿÿÿÿ
-Qsquid:S1854—"9Remove this useless assignment to local variable "value".(Ÿ ñ
-\squid:S1192["FDefine a constant instead of duplicating this literal "</ID>" 4 times.(ëçˆd
-Bsquid:S1481—"*Remove this unused "value" local variable.(Ÿ ñ
-Qsquid:S1854¸"9Remove this useless assignment to local variable "value".(Ÿ ñ
-\squid:S1192["FDefine a constant instead of duplicating this literal "	<ID>" 4 times.(ëçˆd
-;squid:S2653Ò"#Remove this unwanted "main" method.(Çµí‘
-€squid:S1192Š"cDefine a constant instead of duplicating this literal "			<first>www.salvador.com</first>" 3 times.(ğÜÜ±ûÿÿÿÿ
-esquid:S3986µ"HMake sure that Week Year "YYYY" is expected here instead of Year "yyyy".(Ì‰§ÿÿÿÿÿ
-csquid:CommentedOutCodeLineà"<This block of commented-out lines of code should be removed.(†€éˆ
-`squid:S1192_"IDefine a constant instead of duplicating this literal "		<last>" 4 times.(¶éİ…
-~squid:S1192}"bDefine a constant instead of duplicating this literal "		<first>www.salvador.com</first>" 3 times.(ğÜÜ±ûÿÿÿÿ
-dsquid:S1192|"HDefine a constant instead of duplicating this literal "	<Name>" 3 times.( Õ†×ıÿÿÿÿ
-O
-squid:S106-"9Replace this use of System.out or System.err by a logger.(–¥¿
-`squid:S1192`"IDefine a constant instead of duplicating this literal "	</Name>" 4 times.(–ÑÒ¬
-?squid:S11482"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
->squid:S1989"'Add a "try/catch" block for "parseInt".(ğÄè
-osquid:S1192ƒ"RDefine a constant instead of duplicating this literal "		<value></value>" 3 times.(É—éŒüÿÿÿÿ
-‚squid:S1192Y"kDefine a constant instead of duplicating this literal "<?xml version=\"1.0\" encoding=\"UTF-8\"?>" 4 times.(¬­›¥
-nsquid:S1192‚"QDefine a constant instead of duplicating this literal "		<type>0</type>" 3 times.(¡æµÇûÿÿÿÿ
-ksquid:S1192S"ODefine a constant instead of duplicating this literal "YYYYMMddHHmmss" 4 times.(Ì‰§ÿÿÿÿÿ
-Bsquid:S1481¸"*Remove this unused "value" local variable.(Ÿ ñ
-O
-squid:S106J"9Replace this use of System.out or System.err by a logger.(ĞåÛü
-psquid:S1192‹"XDefine a constant instead of duplicating this literal "			<app>BusSystem</app>" 3 times.(´Ç½º
-csquid:CommentedOutCodeLineØ"<This block of commented-out lines of code should be removed.(œ—©Â
-Psquid:S1854v"9Remove this useless assignment to local variable "value".(Ÿ ñ
-O
-squid:S106?"9Replace this use of System.out or System.err by a logger.(±Ôë¢
-dsquid:S1192"LDefine a constant instead of duplicating this literal "	</Request>" 3 times.(…çÕä
-œ%squid:RedundantThrowsDeclarationCheck%"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(ÛóŞ,
-Jsquid:S1481("3Remove this unused "testServletUrl" local variable.(‰±ì²
-hsquid:CommentedOutCodeLine‡"<This block of commented-out lines of code should be removed.(¢™†åúÿÿÿÿ

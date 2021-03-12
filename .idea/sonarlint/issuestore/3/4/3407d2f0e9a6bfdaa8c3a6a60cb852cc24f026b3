@@ -1,22 +1,0 @@
-
-Osquid:S1197?"8Move the array designator from the variable to the type.(²ÙÜœ
-Xsquid:S1075+"ARefactor your code to get this URI from a customizable parameter.(¬çú
-T
-squid:S106H"9Replace this use of System.out or System.err by a logger.(•µô¡ûÿÿÿÿ
-jsquid:S2095"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(Ö¹à üÿÿÿÿ
-Xsquid:S1075<"ARefactor your code to get this URI from a customizable parameter.(¬çú
-dsquid:S2095>"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(´·ô
-ksquid:S1192"MDefine a constant instead of duplicating this literal "F:\\file.txt" 3 times.(¬çú8şŸºĞ¿-
-_squid:S4042"IUse "java.nio.Files#delete" here for better messages on error conditions.(±Ü‹
-Xsquid:S1075"ARefactor your code to get this URI from a customizable parameter.(¬çú
-X
-squid:S899"BDo something with the "boolean" value returned by "createNewFile".(á‡³
-Tsquid:S1197."8Move the array designator from the variable to the type.(°×¸Õıÿÿÿÿ
-P
-squid:S899";Do something with the "boolean" value returned by "delete".(±Ü‹
-dsquid:S2095-"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(´·ô
-Nsquid:S1135"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
-O
-squid:S1061"9Replace this use of System.out or System.err by a logger.(ø‹õ·
-?squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
-csquid:UselessImportCheck":Remove this unused import 'java.io.FileNotFoundException'.(·î™ùÿÿÿÿ

@@ -1,28 +1,0 @@
-
-… squid:ForLoopCounterChangedCheck’"XRefactor the code in order to not assign to this loop counter from within the loop body.(ªİß°
-Š squid:ForLoopCounterChangedCheck“"XRefactor the code in order to not assign to this loop counter from within the loop body.(ıË¥Õúÿÿÿÿ
-Tsquid:S1197,"8Move the array designator from the variable to the type.(ş¨€Õùÿÿÿÿ
-Tsquid:S1197T"8Move the array designator from the variable to the type.(°¯Ôıÿÿÿÿ
-Usquid:S1197"8Move the array designator from the variable to the type.(ÄÛ˜ğşÿÿÿÿ
-[squid:S2278%"?Use the recommended AES (Advanced Encryption Standard) instead.(©§Ë˜ûÿÿÿÿ
-[squid:S2278M"?Use the recommended AES (Advanced Encryption Standard) instead.(©§Ë˜ûÿÿÿÿ
-gsquid:CommentedOutCodeLine#"<This block of commented-out lines of code should be removed.(˜£®­ÿÿÿÿÿ
-gsquid:CommentedOutCodeLineK"<This block of commented-out lines of code should be removed.(˜£®­ÿÿÿÿÿ
-O
-squid:S1060"9Replace this use of System.out or System.err by a logger.(Ï²—„
-N
-squid:S106X"9Replace this use of System.out or System.err by a logger.(‹»f
-squid:S1488,"eImmediately return this expression instead of assigning it to the temporary variable "encryptedData".(ş¨€Õùÿÿÿÿ
-squid:S1488T"eImmediately return this expression instead of assigning it to the temporary variable "decryptedData".(°¯Ôıÿÿÿÿ
-‚"squid:ClassVariableVisibilityCheck"OMake key a static final constant or non-public and provide accessors if needed.(Ëá’Ğüÿÿÿÿ
-|"squid:ClassVariableVisibilityCheck"NMake iv a static final constant or non-public and provide accessors if needed.(ÕÈ°Ø
-isquid:S3776e"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(¶ ‘¦
-ksquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÍŒëŞıÿÿÿÿ
-ksquid:S00100@"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ê—°ûşÿÿÿÿ
-=squid:S11684"&Return an empty array instead of null.(¥¹ï
-=squid:S1168\"&Return an empty array instead of null.(¥¹ï
-=squid:S1168g"&Return an empty array instead of null.(¥¹ï
-=squid:S1168u"&Return an empty array instead of null.(¥¹ï
->squid:S1168€"&Return an empty array instead of null.(¥¹ï
-?squid:S11481"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
-?squid:S1148Y"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
