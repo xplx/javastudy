@@ -1,6 +1,6 @@
-package pers.wxp.type.Factory;
+package pers.wxp.pattern.factory;
 
-public class TestTwo implements InterfaceTest{
+public class TestTwo implements InterfaceTest {
 
 	@Override
 	public void getName() {

@@ -1,9 +1,9 @@
-package pers.wxp.type.Factory;
+package pers.wxp.pattern.factory;
 
-/** 
-* @author wxp  
-* @date 2018年1月31日 上午10:33:47 
-* @Description: TODO(这里用一句话描述这个类的作用) 
+/**
+* @author wxp
+* @date 2018年1月31日 上午10:33:47
+* @Description: TODO(这里用一句话描述这个类的作用)
 */
 public class FactoryTest {
 	public static void main(String[] args) {

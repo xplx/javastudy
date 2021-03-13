@@ -1,4 +1,4 @@
-package pers.wxp.type.Factory;
+package pers.wxp.pattern.factory;
 
 /**
  * @author wxp

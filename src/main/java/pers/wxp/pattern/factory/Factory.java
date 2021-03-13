@@ -1,4 +1,4 @@
-package pers.wxp.type.Factory;
+package pers.wxp.pattern.factory;
 
 /**
  * @author wxp
@@ -35,7 +35,7 @@ public class Factory {
 
 	/**
 	 * 本方法为公有方法，用于生产接口对象
-	 * 
+	 *
 	 * @return InterfaceTest接口对象
 	 */
 

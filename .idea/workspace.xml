@@ -2,499 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04acdf44-1d46-4362-963a-91d5ff1b863b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/future/CompletableFutureParallel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/future/CompletableFutureSerial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/future/CompletedFutureExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/guava/MultisetTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/guava/TableTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/jna/TestTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/jvm/DynamicDispatcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/jvm/HeapMemory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/jvm/JMVStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/jvm/MetaspaceUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/jvm/MyItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/jvm/StaticTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/jvm/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/jvm/TestJVMParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/jvm/WeakReferenceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/lambda/ParallelStreamTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/lambda/stream/BlogPost.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/lambda/stream/BlogPostType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/lambda/stream/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/lambda/stream/Tuple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/thread/SemaphoreDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/threadpool/CountDownLatchDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/threadpool/CountDownLatchDemoOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/type/map/ConcurrentHashMapDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/util/LogPrintUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/hdfsnavigator.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/4/04d8de93fa246b7ca13edf178eb3fb18d84ee291" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/6/0687c7cf877cd2c5a7969b510a23dbf19b761114" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/d/1d85f408e9d05995fbb8bf2e07d3f524faf1cae1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/5/253650e7e4e647bea0435b743b1a37237a2bd92d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/4/3407d2f0e9a6bfdaa8c3a6a60cb852cc24f026b3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/c/3c08050882dd4cda9e44849221106ab8fee8c019" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/4403f28302b118dcff22f03cf78972f060e79bff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/c/9cd9221e0b0b289f216ad8f3513d6cb5662062e7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/d/9d9fd6afd0a3c0de5b4f42b075c2d0b254952275" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/f/9feca99c93af1fb1865545bb6f15fa0925f14928" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/0/b0e9a25d6decba0646ce0688116443cff72e607c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/3/b33c48d5e4467ff80c2f56e1edee0eab1e4783f8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/c/bc76d0f06e35d3f6db299705d5e2991b687301e6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/7/c78a6f2fb07a5f62da2f48d3529fc796cfe3973e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/2/d2e1acc0a1ec3df1e1eb168a4c30ff1b11bcff9b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/5/e548d7792b6da986ef5a5633ba4a10857cf9df81" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/b/ebf0bcf7e89954aa7fde490d88a04e6ec4139f2a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/builder/House.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/builder/HouseBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/builder/HouseDesign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/builder/HouseWu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/builder/HouseZhang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/builder/MainTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/Reflect/ReflectTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/Reflect/TestReflect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/Reflect/TestReflect1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/Serial/ContinueRead.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/Serial/DSerialPort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/Serial/ObjectSerTest1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/Serial/Operate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/Serial/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/Serial/SerialMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/Serial/SerializableDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/Serial/Student1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/Serial/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/Serial/WhySerialversionUID.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/TcpIp/MyClien$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/TcpIp/MyClien.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/TcpIp/MyTcp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/TcpIp/Server.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/TcpIp/SocketThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/TcpIp/TCPEchoServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/TcpIp/TCPThreadServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/TcpIp/TCPThreadServerSocket.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/applet/HelloWorldApplet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/database/MysqlConn.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/database/ProcDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/date/Redis.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/date/TDate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/date/TimeCompare.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/encrypt/AES.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/encrypt/Base64.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/encrypt/Base64Encoder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/encrypt/DESUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/encrypt/MD5Encoder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/encrypt/Md5Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/encrypt/Mddd5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/encrypt/MyMD5Util.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/encrypt/RSADemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/encrypt/RSAEncryp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/encrypt/RSATool.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/file/EncodedResourceExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/file/FileDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/file/FileSourceExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/file/ReadLine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/gather/Cache.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/gather/CacheManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/gather/CollectionToArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/gather/Dog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/gather/HashSetDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/gather/IteratorDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/gather/LRULinkedHashMap$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/gather/LRULinkedHashMap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/gather/ListCache.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/gather/ListDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/gather/ListExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/gather/ListIteratorTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/gather/ListTestLoop.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/gather/MapDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/gather/MapSaveList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/gather/MapSortExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/gather/MapTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/gather/MapTestLoop.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/gather/SetTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/gather/TList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/gather/TSerialization.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/gather/TestList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/interview/AssertDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/interview/SwitchDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/interview/VariableArgument.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/jdk10/NewFunction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/jna/CLibrary.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/jna/CLibraryExe.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/junit4/Calculator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/junit4/CalculatorTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/junit4/Log4jSendMail.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/jvm/JvmHow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/resource/EncodedResourceExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/resource/FileSourceExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/spring/Boss.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/spring/SimpleTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/spring/beanfactory/BeanLifeCycle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/spring/beanfactory/Car.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/spring/beanfactory/MyBeanFactoryPostProcessor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/spring/beanfactory/MyBeanPostProcessor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/spring/beanfactory/MyInstantiationAwareBeanPostProcessor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/spring/i18n/I18nGreeting.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/spring/i18n/LocaleSample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/spring/placeholder/DESUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/spring/placeholder/EncryptPropertyPlaceholderConfigurer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/spring/placeholder/FileDomain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/spring/placeholder/MyDataSourceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/thread/CommonCook$Chuju.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/thread/CommonCook$OnlineShopping.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/thread/CommonCook$Shicai.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/thread/CommonCook.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/thread/Consumer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/thread/ExecDemo01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/thread/ExecDemo02.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/thread/ExecMethed.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/thread/ExecMethedOne$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/thread/ExecMethedOne.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/thread/FutureCook$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/thread/FutureCook$Chuju.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/thread/FutureCook$Shicai.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/thread/FutureCook.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/thread/FutureDemo$1FindMax.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/thread/FutureDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/thread/Info.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/thread/Lisi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/thread/LockTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/thread/LockTest$Adder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/thread/LockTest$Subtractor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/thread/LockTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/thread/MainPriorityDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/thread/MultiThread$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/thread/MultiThread$Thread1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/thread/MultiThread$Thread2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/thread/MultiThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/thread/MyStopDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/thread/Producer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/thread/RunnableDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/thread/RunnableDemo01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/thread/RunnableDemo02.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/thread/StopDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/thread/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/thread/ThreadAliveDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/thread/ThreadCaseDemo01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/thread/ThreadDeadLock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/thread/ThreadDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/thread/ThreadInterruptDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/thread/ThreadLocalDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/thread/ThreadNameDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/thread/ThreadPriorityDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/thread/ThreadSleepDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/thread/ThreadYieldDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/thread/Zhangsan.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/threadpool/CreateThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/threadpool/ExecutorServiceDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/threadpool/MoreThreadDemo$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/threadpool/MoreThreadDemo$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/threadpool/MoreThreadDemo$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/threadpool/MoreThreadDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/threadpool/SubThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/threadpool/TempThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/threadpool/ThreadPoolTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/throwdemo/ThrowDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/timetask/ExecutorTime$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/timetask/ExecutorTime.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/timetask/ScheduleExecutorServiceDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/timetask/ScheduledThreadPoolExecutorTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/timetask/ScheduledThreadPoolExecutorTest$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/timetask/ScheduledThreadPoolExecutorTest$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/timetask/ScheduledThreadPoolExecutorTest$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/timetask/ScheduledThreadPoolExecutorTest$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/timetask/ScheduledThreadPoolExecutorTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/timetask/ThreadTime$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/timetask/ThreadTime.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/timetask/TimerDemo$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/timetask/TimerDemo$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/timetask/TimerDemo$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/timetask/TimerDemo$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/timetask/TimerDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/timetask/TimerTime$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/timetask/TimerTime.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/type/ArraysDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/type/BreakDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/type/Crc16Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/type/ExceptionDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/type/Factory/Factory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/type/Factory/FactoryTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/type/Factory/InterfaceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/type/Factory/TestOne.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/type/Factory/TestTwo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/type/FinalDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/type/FinallyDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/type/JsonDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/type/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/type/RandomDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/type/ReduceNew.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/type/TestA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/type/TestB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/type/ThisDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/type/abstractMethod/StudentA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/type/abstractMethod/StudentAImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/type/abstractMethod/StudentI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/type/abstractMethod/StudentImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/type/number/BigDecimalDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/type/number/LongDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/type/number/RandomDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/type/statictest/DemoTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/type/statictest/Singleton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/type/statictest/Singleton1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/type/statictest/StaticDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/type/string/PatternDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/type/string/StringBuilderTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/type/string/StringConvertTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/type/string/StringDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/type/string/StringTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/type/string/SystemDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/type/synchroniz/Account.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/type/synchroniz/AccountOperator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/type/synchroniz/Counter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/type/synchroniz/SyncThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/type/synchroniz/SyncThreadClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/type/synchroniz/SynchronizedClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/type/synchroniz/SynchronizedCodeBlock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/type/synchroniz/SynchronizedDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/type/synchroniz/SynchronizedMethod.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/type/synchroniz/SynchronizedStaticMethod.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/util/Base64.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/util/BeanUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/util/ConfParameterUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/util/Constants.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/util/ConversionUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/util/DataConversion$EncipherConst.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/util/DataConversion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/util/FaceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/util/InputJson.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/util/JSONUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/util/LoadProperties.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/util/MsgDictionaries.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/util/MsgUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/util/OSSUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/util/PdfToHtml.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/util/PdfUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/util/PhoneUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/util/RandomUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/util/SendMessage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/util/StringUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/util/TypeJudge.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/xml/DESCBCUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/xml/HttpPostTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/xml/SendXml.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/xml/Validation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pers/wxp/xml/ValidationHelper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javastudy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javastudy.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/conf/file1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/conf/file1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/conf/spring-mvc.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/conf/spring-mvc.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/conf/sys_conf.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/conf/sys_conf.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/file1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/file1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/readme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/serializable.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/serializable.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/spring/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/spring/beans.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/spring/i18n/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/spring/i18n/beans.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/spring/i18n/fmt_resource.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/spring/i18n/fmt_resource.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/spring/i18n/fmt_resource_en_US.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/spring/i18n/fmt_resource_en_US.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/spring/i18n/fmt_resource_zh_CN.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/spring/i18n/fmt_resource_zh_CN.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/spring/i18n/resource.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/spring/i18n/resource.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/spring/i18n/resource_en_US.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/spring/i18n/resource_en_US.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/spring/i18n/resource_zh_CN.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/spring/i18n/resource_zh_CN.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/spring/placeholder/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/spring/placeholder/beans.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/spring/placeholder/file.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/spring/placeholder/file.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/spring/placeholder/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/spring/placeholder/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/Serial/ContinueRead.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/Serial/ContinueRead.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/Serial/DSerialPort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/Serial/DSerialPort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/Serial/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/Serial/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/Serial/SerialMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/Serial/SerialMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/Serial/SerializableDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/Serial/SerializableDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/Serial/Student1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/Serial/Student1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/Serial/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/Serial/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/Serial/WhySerialversionUID.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/Serial/WhySerialversionUID.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/TcpIp/MyClien.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/TcpIp/MyClien.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/TcpIp/MyTcp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/TcpIp/MyTcp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/TcpIp/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/TcpIp/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/TcpIp/TCPEchoServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/TcpIp/TCPEchoServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/TcpIp/TCPThreadServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/TcpIp/TCPThreadServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/TcpIp/TCPThreadServerSocket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/TcpIp/TCPThreadServerSocket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/applet/HelloWorldApplet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/applet/HelloWorldApplet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/database/MysqlConn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/database/MysqlConn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/database/ProcDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/database/ProcDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/date/Redis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/date/Redis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/date/TDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/date/TDate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/date/TimeCompare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/date/TimeCompare.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/encrypt/AES.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/encrypt/AES.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/encrypt/Base64.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/encrypt/Base64.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/encrypt/Base64Encoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/encrypt/Base64Encoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/encrypt/DESUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/encrypt/DESUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/encrypt/MD5Encoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/encrypt/MD5Encoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/encrypt/Md5Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/encrypt/Md5Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/encrypt/Mddd5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/encrypt/Mddd5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/encrypt/MyMD5Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/encrypt/MyMD5Util.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/encrypt/RSADemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/encrypt/RSADemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/encrypt/RSAEncryp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/encrypt/RSAEncryp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/encrypt/RSATool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/encrypt/RSATool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/file/EncodedResourceExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/file/EncodedResourceExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/file/FileDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/file/FileDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/file/FileSourceExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/file/FileSourceExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/file/ReadLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/file/ReadLine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/gather/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/gather/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/gather/Cache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/gather/Cache.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/gather/CacheManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/gather/CacheManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/gather/CollectionToArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/gather/CollectionToArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/gather/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/gather/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/gather/HashSetDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/gather/HashSetDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/gather/IteratorDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/gather/IteratorDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/gather/ListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/gather/ListDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/gather/ListExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/gather/ListExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/gather/ListIteratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/gather/ListIteratorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/gather/ListTestLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/gather/ListTestLoop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/gather/MapDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/gather/MapDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/gather/MapSaveList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/gather/MapSaveList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/gather/MapSortExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/gather/MapSortExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/gather/MapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/gather/MapTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/gather/MapTestLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/gather/MapTestLoop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/gather/SetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/gather/SetTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/gather/TList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/gather/TList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/gather/TSerialization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/gather/TSerialization.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/gather/TestList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/gather/TestList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/interview/AssertDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/interview/AssertDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/interview/SwitchDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/interview/SwitchDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/interview/VariableArgument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/interview/VariableArgument.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/jdk10/NewFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/jdk10/NewFunction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/jna/CLibrary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/jna/CLibrary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/jna/CLibraryExe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/jna/CLibraryExe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/junit4/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/junit4/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/junit4/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/junit4/CalculatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/junit4/Log4jSendMail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/junit4/Log4jSendMail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/junit4/log4j.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/junit4/log4j.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/jvm/JvmHow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/jvm/JvmHow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/lambda/ForEachTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/lambda/ForEachTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/lambda/ReduceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/lambda/ReduceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/nio/TimeServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/nio/TimeServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/nio/TimeServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/nio/TimeServerHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/reflect/ReflectTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/reflect/ReflectTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/reflect/TestReflect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/reflect/TestReflect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/reflect/TestReflect1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/reflect/TestReflect1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/resource/EncodedResourceExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/resource/EncodedResourceExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/resource/FileSourceExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/resource/FileSourceExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/resource/fiel.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/resource/fiel.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/spring/Boss.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/spring/Boss.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/spring/SimpleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/spring/SimpleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/spring/beanfactory/BeanLifeCycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/spring/beanfactory/BeanLifeCycle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/spring/beanfactory/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/spring/beanfactory/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/spring/beanfactory/MyBeanFactoryPostProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/spring/beanfactory/MyBeanFactoryPostProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/spring/beanfactory/MyBeanPostProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/spring/beanfactory/MyBeanPostProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/spring/beanfactory/MyInstantiationAwareBeanPostProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/spring/beanfactory/MyInstantiationAwareBeanPostProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/spring/beanfactory/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/spring/beanfactory/beans.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/spring/i18n/I18nGreeting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/spring/i18n/I18nGreeting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/spring/i18n/LocaleSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/spring/i18n/LocaleSample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/spring/placeholder/DESUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/spring/placeholder/DESUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/spring/placeholder/EncryptPropertyPlaceholderConfigurer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/spring/placeholder/EncryptPropertyPlaceholderConfigurer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/spring/placeholder/FileDomain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/spring/placeholder/FileDomain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/spring/placeholder/MyDataSourceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/spring/placeholder/MyDataSourceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/thread/ExecDemo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/thread/ExecDemo01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/thread/ExecDemo02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/thread/ExecDemo02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/thread/FutureCook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/thread/FutureCook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/thread/FutureDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/thread/FutureDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/thread/LockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/thread/DeadLockTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/thread/MainPriorityDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/thread/MainPriorityDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/thread/MultiThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/thread/MultiThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/thread/RunnableDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/thread/RunnableDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/thread/RunnableDemo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/thread/RunnableDemo01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/thread/RunnableDemo02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/thread/RunnableDemo02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/thread/StopDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/thread/StopDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/thread/ThreadAliveDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/thread/ThreadAliveDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/thread/ThreadCaseDemo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/thread/ThreadCaseDemo01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/thread/ThreadDeadLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/thread/ThreadDeadLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/thread/ThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/thread/ThreadDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/thread/ThreadInterruptDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/thread/ThreadInterruptDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/thread/ThreadLocalDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/thread/ThreadLocalDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/thread/ThreadNameDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/thread/ThreadNameDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/thread/ThreadPriorityDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/thread/ThreadPriorityDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/thread/ThreadSleepDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/thread/ThreadSleepDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/thread/ThreadYieldDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/thread/ThreadYieldDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/threadpool/CreateThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/threadpool/CreateThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/threadpool/ExecutorServiceDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/threadpool/ExecutorServiceDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/threadpool/MoreThreadDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/threadpool/MoreThreadDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/threadpool/SubThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/threadpool/SubThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/threadpool/TempThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/threadpool/TempThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/threadpool/ThreadPoolTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/threadpool/ThreadPoolTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/throwdemo/ThrowDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/throwdemo/ThrowDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/timetask/ExecutorTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/timetask/ExecutorTime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/timetask/ScheduleExecutorServiceDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/timetask/ScheduleExecutorServiceDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/timetask/ThreadTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/timetask/ThreadTime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/timetask/TimerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/timetask/TimerDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/timetask/TimerTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/timetask/TimerTime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/type/ArraysDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/type/ArraysDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/type/BreakDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/type/BreakDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/type/Crc16Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/type/Crc16Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/type/ExceptionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/type/ExceptionDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/type/Factory/Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/type/Factory/Factory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/type/Factory/FactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/type/Factory/FactoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/type/Factory/InterfaceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/type/Factory/InterfaceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/type/Factory/TestOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/type/Factory/TestOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/type/Factory/TestTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/type/Factory/TestTwo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/type/Factory/file.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/type/Factory/file.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/type/FinalDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/type/FinalDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/type/FinallyDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/type/FinallyDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/type/JsonDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/type/JsonDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/type/RandomDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/type/RandomDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/type/ReduceNew.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/type/ReduceNew.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/type/ThisDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/type/ThisDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/type/abstractMethod/StudentA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/type/abstractMethod/StudentA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/type/abstractMethod/StudentAImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/type/abstractMethod/StudentAImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/type/abstractMethod/StudentI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/type/abstractMethod/StudentI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/type/abstractMethod/StudentImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/type/abstractMethod/StudentImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/type/abstractMethod/readerMe.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/type/abstractMethod/readerMe.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/type/number/BigDecimalDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/type/number/BigDecimalDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/type/number/LongDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/type/number/LongDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/type/number/RandomDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/type/number/RandomDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/type/statictest/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/type/statictest/Singleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/type/statictest/Singleton1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/type/statictest/Singleton1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/type/statictest/StaticDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/type/statictest/StaticDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/type/string/PatternDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/type/string/PatternDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/type/string/StringBuilderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/type/string/StringBuilderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/type/string/StringConvertTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/type/string/StringConvertTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/type/string/StringDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/type/string/StringDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/type/string/StringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/type/string/StringTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/type/string/SystemDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/type/string/SystemDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/type/synchroniz/ReadMe.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/type/synchroniz/ReadMe.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/type/synchroniz/SynchronizedClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/type/synchroniz/SynchronizedClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/type/synchroniz/SynchronizedCodeBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/type/synchroniz/SynchronizedCodeBlock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/type/synchroniz/SynchronizedMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/type/synchroniz/SynchronizedMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/type/synchroniz/SynchronizedStaticMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/type/synchroniz/SynchronizedStaticMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/util/Base64.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/util/Base64.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/util/BeanUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/util/BeanUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/util/ConfParameterUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/util/ConfParameterUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/util/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/util/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/util/ConversionUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/util/ConversionUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/util/DataConversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/util/DataConversion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/util/FaceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/util/FaceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/util/InputJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/util/InputJson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/util/JSONUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/util/JSONUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/util/LoadProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/util/LoadProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/util/MsgDictionaries.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/util/MsgDictionaries.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/util/MsgUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/util/MsgUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/util/OSSUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/util/OSSUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/util/PdfToHtml.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/util/PdfToHtml.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/util/PdfUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/util/PdfUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/util/PhoneUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/util/PhoneUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/util/RandomUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/util/RandomUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/util/SendMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/util/SendMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/util/StringUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/util/StringUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/util/TypeJudge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/util/TypeJudge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/xml/DESCBCUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/xml/DESCBCUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/xml/HttpPostTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/xml/HttpPostTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/xml/SendXml.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/xml/SendXml.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/xml/Validation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/xml/Validation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pers/wxp/xml/ValidationHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/xml/ValidationHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pers/wxp/type/Factory/Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/factory/Factory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pers/wxp/type/Factory/FactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/factory/FactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pers/wxp/type/Factory/InterfaceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/factory/InterfaceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pers/wxp/type/Factory/TestOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/factory/TestOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pers/wxp/type/Factory/TestTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/factory/TestTwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pers/wxp/type/Factory/file.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/factory/file.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -521,7 +41,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../WeChatWorkPlace/litemall" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/pers/wxp/pattern" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -536,7 +56,11 @@
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WorkplaceStudy\javastudy\src\main\java\pers\wxp\pattern" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="pers.wxp.pattern.builder" />
       <recent name="pers.wxp.threadpool" />
       <recent name="pers.wxp.future" />
     </key>
@@ -545,7 +69,7 @@
       <recent name="D:\WorkplaceStudy\javastudy\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestTest">
+  <component name="RunManager" selected="Application.MainTest">
     <configuration name="ConcurrentHashMapDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pers.wxp.type.map.ConcurrentHashMapDemo" />
       <module name="java-study" />
@@ -559,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SemaphoreDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pers.wxp.thread.SemaphoreDemo" />
+    <configuration name="MainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pers.wxp.pattern.builder.MainTest" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pers.wxp.thread.*" />
+          <option name="PATTERN" value="pers.wxp.pattern.builder.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -619,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainTest" />
         <item itemvalue="Application.TestTest" />
         <item itemvalue="JUnit.TestTest.MultiThreadTest" />
         <item itemvalue="JUnit.TestTest.MultiThread" />
         <item itemvalue="Application.ConcurrentHashMapDemo" />
-        <item itemvalue="Application.SemaphoreDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -648,6 +172,7 @@
       <workItem from="1615252863287" duration="5267000" />
       <workItem from="1615452890313" duration="595000" />
       <workItem from="1615529500110" duration="592000" />
+      <workItem from="1615558878497" duration="2922000" />
     </task>
     <servers />
   </component>
@@ -655,10 +180,15 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="488" y="56" key="#com.intellij.ide.util.MemberChooser" timestamp="1607936383525">
+    <state x="488" y="56" key="#com.intellij.ide.util.MemberChooser" timestamp="1615559692104">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="488" y="56" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/-1920.9.1920.1040@0.0.1366.728" timestamp="1607936383525" />
+    <state x="488" y="56" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1615559692104" />
+    <state x="355" y="291" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1615558943026">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="355" y="291" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1615558943026" />
     <state x="438" y="70" key="#xdebugger.evaluate" timestamp="1615254417110">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -672,38 +202,46 @@
     </state>
     <state x="357" y="107" key="FileChooserDialogImpl/0.0.1366.728/-1920.9.1920.1040@0.0.1366.728" timestamp="1615346259403" />
     <state x="357" y="107" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1608516542429" />
-    <state width="1323" height="173" key="GridCell.Tab.0.bottom" timestamp="1615432499007">
+    <state width="1323" height="206" key="GridCell.Tab.0.bottom" timestamp="1615563059509">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="173" key="GridCell.Tab.0.bottom/0.0.1366.728/-1920.9.1920.1040@0.0.1366.728" timestamp="1615432499007" />
-    <state width="1323" height="173" key="GridCell.Tab.0.center" timestamp="1615432499007">
+    <state width="1323" height="206" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1615563059509" />
+    <state width="1323" height="206" key="GridCell.Tab.0.center" timestamp="1615563059509">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="173" key="GridCell.Tab.0.center/0.0.1366.728/-1920.9.1920.1040@0.0.1366.728" timestamp="1615432499007" />
-    <state width="1323" height="173" key="GridCell.Tab.0.left" timestamp="1615432499006">
+    <state width="1323" height="206" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1615563059509" />
+    <state width="1323" height="206" key="GridCell.Tab.0.left" timestamp="1615563059509">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="173" key="GridCell.Tab.0.left/0.0.1366.728/-1920.9.1920.1040@0.0.1366.728" timestamp="1615432499006" />
-    <state width="1323" height="173" key="GridCell.Tab.0.right" timestamp="1615432499007">
+    <state width="1323" height="206" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1615563059509" />
+    <state width="1323" height="206" key="GridCell.Tab.0.right" timestamp="1615563059509">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="173" key="GridCell.Tab.0.right/0.0.1366.728/-1920.9.1920.1040@0.0.1366.728" timestamp="1615432499007" />
-    <state width="1323" height="173" key="GridCell.Tab.1.bottom" timestamp="1615432498835">
+    <state width="1323" height="206" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1615563059509" />
+    <state width="1323" height="206" key="GridCell.Tab.1.bottom" timestamp="1615563059509">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="173" key="GridCell.Tab.1.bottom/0.0.1366.728/-1920.9.1920.1040@0.0.1366.728" timestamp="1615432498835" />
-    <state width="1323" height="173" key="GridCell.Tab.1.center" timestamp="1615432498835">
+    <state width="1323" height="206" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1615563059509" />
+    <state width="1323" height="206" key="GridCell.Tab.1.center" timestamp="1615563059509">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="173" key="GridCell.Tab.1.center/0.0.1366.728/-1920.9.1920.1040@0.0.1366.728" timestamp="1615432498835" />
-    <state width="1323" height="173" key="GridCell.Tab.1.left" timestamp="1615432498834">
+    <state width="1323" height="206" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1615563059509" />
+    <state width="1323" height="206" key="GridCell.Tab.1.left" timestamp="1615563059509">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="173" key="GridCell.Tab.1.left/0.0.1366.728/-1920.9.1920.1040@0.0.1366.728" timestamp="1615432498834" />
-    <state width="1323" height="173" key="GridCell.Tab.1.right" timestamp="1615432498835">
+    <state width="1323" height="206" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1615563059509" />
+    <state width="1323" height="206" key="GridCell.Tab.1.right" timestamp="1615563059509">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="173" key="GridCell.Tab.1.right/0.0.1366.728/-1920.9.1920.1040@0.0.1366.728" timestamp="1615432498835" />
+    <state width="1323" height="206" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1615563059509" />
     <state x="186" y="10" key="SettingsEditor" timestamp="1615255090780">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
