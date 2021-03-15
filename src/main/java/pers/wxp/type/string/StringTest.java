@@ -6,16 +6,16 @@ import org.junit.Test;
  * @author wuxiaopeng
  * @date 2017年6月13日 下午2:32:31
  * @Description: TODO(测试String) string不能被继承
- * 
+ *
  */
 public class StringTest {
-
 	/**
 	 * @date 2017年6月13日 下午2:32:59
 	 * @Description: TODO(“String”其中String就是一个对象)
 	 */
 	@Test
 	public void StringAnonymity() {
+		StringBuffer stringBuffer = new StringBuffer();
 		String string1 = null;
 		String string2 = "hello";
 		System.out.println("hello".equals(string1));
@@ -24,23 +24,25 @@ public class StringTest {
 
 	@Test
 	public void String1() {
+		// 指向同一个内存
 		String str1 = "hello";
 		String str2 = "hello";
-		String str3 = "hello";// 指向同一个内存
+		String str3 = "hello";
 		System.out.println(str1 == str2);
 		System.out.println(str1 == str3);
 		System.out.println(str2 == str3);
 
-		String str4 = new String("hello");// 开辟不同内存
+		// 开辟不同内存
+		String str4 = new String("hello");
 		String str5 = new String("hello");
 		String str6 = new String("hello");
 		System.out.println(str4 == str5);
 		System.out.println(str4 == str6);
 		System.out.println(str5 == str6);
 
-		String str7 = new String("hello").intern();// 转为池内
+		// 转为池内，使用的是常量池数据
+		String str7 = new String("hello").intern();
 		System.out.println(str7 == str3);
-
 	}
 
 	@Test
@@ -62,7 +64,6 @@ public class StringTest {
 	 */
 	@Test
 	public void String3() {
-
 		String str1 = "a1aaaabbbbbbb2ccffdd36";
 		String regex = "[a-zA-Z]+";
 		System.out.println(str1.replaceAll(regex, ""));// 将regex子母替换为指定的子母
@@ -75,7 +76,6 @@ public class StringTest {
 	 */
 	@Test
 	public void String4() {
-
 		String str1 = "a1aaa4abbb4bbbb2ccffdd36";
 		String regex = "\\d";// 任意数字
 		String string[] = str1.split(regex);
@@ -110,5 +110,4 @@ public class StringTest {
 		String name = "User's name";
 		name = name.replace("'s", "");
 	}
-
 }
