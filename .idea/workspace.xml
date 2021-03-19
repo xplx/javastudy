@@ -2,10 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04acdf44-1d46-4362-963a-91d5ff1b863b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/thread/CountDownLatchDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/thread/LockDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/thread/CASDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/thread/Counter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/thread/JoinDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pers/wxp/threadpool/ExecutorServiceDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/threadpool/ExecutorServiceDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pers/wxp/TcpIp/MyClien.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/tcpIp/MyClien.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pers/wxp/TcpIp/MyTcp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/tcpIp/MyTcp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pers/wxp/TcpIp/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/tcpIp/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pers/wxp/TcpIp/TCPEchoServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/tcpIp/TCPEchoServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pers/wxp/TcpIp/TCPThreadServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/tcpIp/TCPThreadServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pers/wxp/TcpIp/TCPThreadServerSocket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/tcpIp/TCPThreadServerSocket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/singleton/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/singleton/Singleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/singleton/Singleton1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pers/wxp/pattern/singleton/Singleton1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +68,20 @@
       <recent name="D:\WorkplaceStudy\javastudy\src\main\java\pers\wxp\pattern" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CountDownLatchDemo">
+  <component name="RunManager" selected="Application.JoinDemo">
+    <configuration name="CASDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pers.wxp.thread.CASDemo" />
+      <module name="java-study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pers.wxp.thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CountDownLatchDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pers.wxp.thread.CountDownLatchDemo" />
       <module name="java-study" />
@@ -74,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashMapInfiniteLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pers.wxp.type.map.HashMapInfiniteLoop" />
+    <configuration name="Counter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pers.wxp.thread.Counter" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pers.wxp.type.map.*" />
+          <option name="PATTERN" value="pers.wxp.thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,8 +108,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pers.wxp.thread.LockDemo" />
+    <configuration name="JoinDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pers.wxp.thread.JoinDemo" />
       <module name="java-study" />
       <extension name="coverage">
         <pattern>
@@ -116,29 +137,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringTest.String1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pers.wxp.type.string.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pers.wxp.type.string" />
-      <option name="MAIN_CLASS_NAME" value="pers.wxp.type.string.StringTest" />
-      <option name="METHOD_NAME" value="String1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JoinDemo" />
+        <item itemvalue="Application.Counter" />
+        <item itemvalue="Application.CASDemo" />
         <item itemvalue="Application.CountDownLatchDemo" />
         <item itemvalue="JUnit.CountDownLatchDemo.ThreadTest" />
-        <item itemvalue="Application.LockDemo" />
-        <item itemvalue="Application.HashMapInfiniteLoop" />
-        <item itemvalue="JUnit.StringTest.String1" />
       </list>
     </recent_temporary>
   </component>
@@ -167,7 +172,8 @@
       <workItem from="1615607195574" duration="1046000" />
       <workItem from="1615770999252" duration="2629000" />
       <workItem from="1615774834028" duration="5116000" />
-      <workItem from="1616030464625" duration="13395000" />
+      <workItem from="1616030464625" duration="14286000" />
+      <workItem from="1616117023246" duration="8825000" />
     </task>
     <servers />
   </component>
@@ -198,64 +204,64 @@
     <state x="357" y="107" key="FileChooserDialogImpl/0.0.1366.728/-1920.9.1920.1040@0.0.1366.728" timestamp="1615346259403" />
     <state x="357" y="107" key="FileChooserDialogImpl/0.0.1366.728/1366.-209.1920.1040@0.0.1366.728" timestamp="1616036546814" />
     <state x="357" y="107" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1608516542429" />
-    <state width="1323" height="130" key="GridCell.Tab.0.bottom" timestamp="1616050785454">
+    <state width="1323" height="105" key="GridCell.Tab.0.bottom" timestamp="1616122785519">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="173" key="GridCell.Tab.0.bottom/0.0.1366.728/-1920.9.1920.1040@0.0.1366.728" timestamp="1615432499007" />
-    <state width="1323" height="130" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.-209.1920.1040@0.0.1366.728" timestamp="1616050785454" />
+    <state width="1323" height="105" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.-209.1920.1040@0.0.1366.728" timestamp="1616122785519" />
     <state width="1323" height="206" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1615563059509" />
-    <state width="1323" height="130" key="GridCell.Tab.0.center" timestamp="1616050785454">
+    <state width="1323" height="105" key="GridCell.Tab.0.center" timestamp="1616122785518">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="173" key="GridCell.Tab.0.center/0.0.1366.728/-1920.9.1920.1040@0.0.1366.728" timestamp="1615432499007" />
-    <state width="1323" height="130" key="GridCell.Tab.0.center/0.0.1366.728/1366.-209.1920.1040@0.0.1366.728" timestamp="1616050785454" />
+    <state width="1323" height="105" key="GridCell.Tab.0.center/0.0.1366.728/1366.-209.1920.1040@0.0.1366.728" timestamp="1616122785518" />
     <state width="1323" height="206" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1615563059509" />
-    <state width="1323" height="130" key="GridCell.Tab.0.left" timestamp="1616050785453">
+    <state width="1323" height="105" key="GridCell.Tab.0.left" timestamp="1616122785518">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="173" key="GridCell.Tab.0.left/0.0.1366.728/-1920.9.1920.1040@0.0.1366.728" timestamp="1615432499006" />
-    <state width="1323" height="130" key="GridCell.Tab.0.left/0.0.1366.728/1366.-209.1920.1040@0.0.1366.728" timestamp="1616050785453" />
+    <state width="1323" height="105" key="GridCell.Tab.0.left/0.0.1366.728/1366.-209.1920.1040@0.0.1366.728" timestamp="1616122785518" />
     <state width="1323" height="206" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1615563059509" />
-    <state width="1323" height="130" key="GridCell.Tab.0.right" timestamp="1616050785454">
+    <state width="1323" height="105" key="GridCell.Tab.0.right" timestamp="1616122785518">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="173" key="GridCell.Tab.0.right/0.0.1366.728/-1920.9.1920.1040@0.0.1366.728" timestamp="1615432499007" />
-    <state width="1323" height="130" key="GridCell.Tab.0.right/0.0.1366.728/1366.-209.1920.1040@0.0.1366.728" timestamp="1616050785454" />
+    <state width="1323" height="105" key="GridCell.Tab.0.right/0.0.1366.728/1366.-209.1920.1040@0.0.1366.728" timestamp="1616122785518" />
     <state width="1323" height="206" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1615563059509" />
-    <state width="1323" height="130" key="GridCell.Tab.1.bottom" timestamp="1616050785319">
+    <state width="1323" height="105" key="GridCell.Tab.1.bottom" timestamp="1616122785377">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="173" key="GridCell.Tab.1.bottom/0.0.1366.728/-1920.9.1920.1040@0.0.1366.728" timestamp="1615432498835" />
-    <state width="1323" height="130" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.-209.1920.1040@0.0.1366.728" timestamp="1616050785319" />
+    <state width="1323" height="105" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.-209.1920.1040@0.0.1366.728" timestamp="1616122785377" />
     <state width="1323" height="206" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1615563059509" />
-    <state width="1323" height="130" key="GridCell.Tab.1.center" timestamp="1616050785318">
+    <state width="1323" height="105" key="GridCell.Tab.1.center" timestamp="1616122785376">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="173" key="GridCell.Tab.1.center/0.0.1366.728/-1920.9.1920.1040@0.0.1366.728" timestamp="1615432498835" />
-    <state width="1323" height="130" key="GridCell.Tab.1.center/0.0.1366.728/1366.-209.1920.1040@0.0.1366.728" timestamp="1616050785318" />
+    <state width="1323" height="105" key="GridCell.Tab.1.center/0.0.1366.728/1366.-209.1920.1040@0.0.1366.728" timestamp="1616122785376" />
     <state width="1323" height="206" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1615563059509" />
-    <state width="1323" height="130" key="GridCell.Tab.1.left" timestamp="1616050785318">
+    <state width="1323" height="105" key="GridCell.Tab.1.left" timestamp="1616122785376">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="173" key="GridCell.Tab.1.left/0.0.1366.728/-1920.9.1920.1040@0.0.1366.728" timestamp="1615432498834" />
-    <state width="1323" height="130" key="GridCell.Tab.1.left/0.0.1366.728/1366.-209.1920.1040@0.0.1366.728" timestamp="1616050785318" />
+    <state width="1323" height="105" key="GridCell.Tab.1.left/0.0.1366.728/1366.-209.1920.1040@0.0.1366.728" timestamp="1616122785376" />
     <state width="1323" height="206" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1615563059509" />
-    <state width="1323" height="130" key="GridCell.Tab.1.right" timestamp="1616050785318">
+    <state width="1323" height="105" key="GridCell.Tab.1.right" timestamp="1616122785377">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="173" key="GridCell.Tab.1.right/0.0.1366.728/-1920.9.1920.1040@0.0.1366.728" timestamp="1615432498835" />
-    <state width="1323" height="130" key="GridCell.Tab.1.right/0.0.1366.728/1366.-209.1920.1040@0.0.1366.728" timestamp="1616050785318" />
+    <state width="1323" height="105" key="GridCell.Tab.1.right/0.0.1366.728/1366.-209.1920.1040@0.0.1366.728" timestamp="1616122785377" />
     <state width="1323" height="206" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1615563059509" />
     <state x="186" y="10" key="SettingsEditor" timestamp="1615772901207">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="186" y="10" key="SettingsEditor/0.0.1366.728/-1920.9.1920.1040@0.0.1366.728" timestamp="1615255090780" />
     <state x="186" y="10" key="SettingsEditor/0.0.1366.728/1366.-209.1920.1040@0.0.1366.728" timestamp="1615772901207" />
-    <state x="404" y="105" width="549" height="524" key="StructurePopup" timestamp="1616046023757">
+    <state x="404" y="105" width="549" height="524" key="StructurePopup" timestamp="1616131496131">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="404" y="105" width="540" height="524" key="StructurePopup/0.0.1366.728/-1920.9.1920.1040@0.0.1366.728" timestamp="1615167158132" />
-    <state x="404" y="105" width="549" height="524" key="StructurePopup/0.0.1366.728/1366.-209.1920.1040@0.0.1366.728" timestamp="1616046023757" />
+    <state x="404" y="105" width="549" height="524" key="StructurePopup/0.0.1366.728/1366.-209.1920.1040@0.0.1366.728" timestamp="1616131496131" />
     <state x="230" y="102" width="906" height="567" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1616048304772">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

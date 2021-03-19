@@ -1,4 +1,4 @@
-package pers.wxp.TcpIp;
+package pers.wxp.tcpIp;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -31,7 +31,7 @@ public class TCPEchoServer {
 				OutputStream out = clientSocket.getOutputStream();
 				// receive until client close connection,indicate by -l return
 				while ((recvMsgSize = in.read(receivBuf)) != -1) {
-					String recString = new String(receivBuf, "ISO-8859-1");// »ñÈ¡ÊÕ¼¯Êý¾Ý
+					String recString = new String(receivBuf, "ISO-8859-1");// ï¿½ï¿½È¡ï¿½Õ¼ï¿½ï¿½ï¿½ï¿½ï¿½
 					System.out.println(recString);
 					out.write(receivBuf, 0, recvMsgSize);
 				}

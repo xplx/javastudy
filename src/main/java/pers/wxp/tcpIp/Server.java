@@ -1,4 +1,4 @@
-package pers.wxp.TcpIp;
+package pers.wxp.tcpIp;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -6,38 +6,36 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.ServerSocket;
 import java.net.Socket;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
 /*
- * 4.ÓÃsocketÍ¨Ñ¶Ð´³ö¶à¸ö¿Í»§¶ËºÍÒ»¸ö·þÎñÆ÷¶ËµÄÍ¨Ñ¶£¬
- * ÒªÇó¿Í»§·¢ËÍÊý¾ÝºóÄÜ¹»»ØÏÔÏàÍ¬µÄÊý¾Ý£¨»ØÏÔ¹¦ÄÜ£©£¨ÊµÓÃTCP·½Ê½£©¡£
+ * 4.ï¿½ï¿½socketÍ¨Ñ¶Ð´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í»ï¿½ï¿½Ëºï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ëµï¿½Í¨Ñ¶ï¿½ï¿½
+ * Òªï¿½ï¿½Í»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ýºï¿½ï¿½Ü¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í¬ï¿½ï¿½ï¿½ï¿½ï¿½Ý£ï¿½ï¿½ï¿½ï¿½Ô¹ï¿½ï¿½Ü£ï¿½ï¿½ï¿½Êµï¿½ï¿½TCPï¿½ï¿½Ê½ï¿½ï¿½ï¿½ï¿½
  */
 public class Server {
 
-	// Ö÷Èë¿Ú
+	// ï¿½ï¿½ï¿½ï¿½ï¿½
 	public static void main(String[] args) throws IOException {
 		scoketServer();
 	}
 
-	// ¿ªÆôµÄtcp8888¼àÌý¶Ë¿Ú
+	// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½tcp8888ï¿½ï¿½ï¿½ï¿½ï¿½Ë¿ï¿½
 	public static void scoketServer() throws IOException {
 		ServerSocket server = new ServerSocket(8082);
 		while (true) {
-			// Î´Á¬Í¨Ç°Ïß³Ì×èÈû£¬Á¬Í¨ºó¿ªÆôÒ»¸ösocketÍ¨µÀÏß³Ìºó¼ÌÐø¼àÌý8888¶Ë¿Ú
+			// Î´ï¿½ï¿½Í¨Ç°ï¿½ß³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í¨ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½socketÍ¨ï¿½ï¿½ï¿½ß³Ìºï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½8888ï¿½Ë¿ï¿½
 			Socket socket = server.accept();
-			System.out.println(socket.getInetAddress().getHostAddress() + "Á¬½Ó½øÈë");
+			System.out.println(socket.getInetAddress().getHostAddress() + "ï¿½ï¿½ï¿½Ó½ï¿½ï¿½ï¿½");
 			new SocketThread(socket).start();
 		}
 	}
 
 }
 
-// Ò»¸ö·þÎñÆ÷¶Ë¿ÚÖÐ¼àÌý¶à¸ö¿Í·þ¶ËÍ¨µÀÏß³Ì
+// Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë¿ï¿½ï¿½Ð¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í·ï¿½ï¿½ï¿½Í¨ï¿½ï¿½ï¿½ß³ï¿½
 class SocketThread extends Thread {
-	// ËùÓÐÍ¨µÀÐ´ÈëÁ÷µÄ¼¯ºÏ
+	// ï¿½ï¿½ï¿½ï¿½Í¨ï¿½ï¿½Ð´ï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½
 	private static List<PrintWriter> list = new ArrayList<PrintWriter>();
 
 	private BufferedReader bufferedReader;
@@ -54,11 +52,11 @@ class SocketThread extends Thread {
 		String string = null;
 		while (true) {
 			try {
-				// ·þÎñÆ÷ÔÚÍ¨µÀÖÐ¶Áµ½µÄÐÅÏ¢»ØÏÔ¸ø¿Í·þ¶Ë
-				String receivBuf = bufferedReader.readLine();			
-				System.out.println("¿Í·þ¶ËÐÅÏ¢£º" + string);
+				// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í¨ï¿½ï¿½ï¿½Ð¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¢ï¿½ï¿½ï¿½Ô¸ï¿½ï¿½Í·ï¿½ï¿½ï¿½
+				String receivBuf = bufferedReader.readLine();
+				System.out.println("ï¿½Í·ï¿½ï¿½ï¿½ï¿½ï¿½Ï¢ï¿½ï¿½" + string);
 				for (PrintWriter printWriter : list) {
-					printWriter.write("·þÎñÆ÷»ØÏÔ£º" + string + "\r\n");
+					printWriter.write("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô£ï¿½" + string + "\r\n");
 					printWriter.flush();
 				}
 			} catch (IOException e) {
